@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher",
+    "version": "1.6.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-commons",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "1.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.6.3.jar",
+          "url": "headlessmc-launcher-1.6.3.jar",
+          "size": 1057770,
+          "sha512": "174c57f47441181a5088dbf60081e03b50c07fe3586c2820d2788a251960f8436e5b6f08eaf1a4db50dd6953f3aa40f57af53596dd3947a4f245dfbc9cb92a66",
+          "sha256": "48037f04fc8a744aebe5df7ee87caa0a135e6fc247e2fe79ab7d1d764236b355",
+          "sha1": "16997520566323ed71cc0a62b8fe521f27e9e8ce",
+          "md5": "122df36bbdc34847ea8d1b78595d8f6d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-commons",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "fr.litarvan",
+          "module": "openauth",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.github.3arthqu4ke",
+          "module": "ForgeCLI",
+          "version": {
+            "requires": "1.1.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "legacy"
+            },
+            {
+              "group": "*",
+              "module": "asm"
+            },
+            {
+              "group": "*",
+              "module": "asm-tree"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "ForgeCLI",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "all"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.6.3.jar",
+          "url": "headlessmc-launcher-1.6.3.jar",
+          "size": 1057770,
+          "sha512": "174c57f47441181a5088dbf60081e03b50c07fe3586c2820d2788a251960f8436e5b6f08eaf1a4db50dd6953f3aa40f57af53596dd3947a4f245dfbc9cb92a66",
+          "sha256": "48037f04fc8a744aebe5df7ee87caa0a135e6fc247e2fe79ab7d1d764236b355",
+          "sha1": "16997520566323ed71cc0a62b8fe521f27e9e8ce",
+          "md5": "122df36bbdc34847ea8d1b78595d8f6d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.6.3-sources.jar",
+          "url": "headlessmc-launcher-1.6.3-sources.jar",
+          "size": 92094,
+          "sha512": "434cfbabd11dc1eb325473189af178e438b2c7eec55ce8df4f8d8bb9c9b39fb956b947a991dc16909e00ea5778be73a623ab8d2e34145b1cf9802716f62e35b8",
+          "sha256": "f387ecf993b02fea5b0b12937f9cb3bb2eec0a7666cd94ebaaa5aa70171565a9",
+          "sha1": "f39e3d53c92944d45c508ea0bd26bbf21057d51e",
+          "md5": "0f715982a33ca1e3e8b980b43c70cdab"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.6.3-javadoc.jar",
+          "url": "headlessmc-launcher-1.6.3-javadoc.jar",
+          "size": 484983,
+          "sha512": "cc7f17accc91f91bcbf3e2d0903620a2e03c5dfdec8e98174e5670a5efb313aa4a90a873f83fed62653fab134a53e9e6de372773f5a984b4064bde0af5f4cb6a",
+          "sha256": "98676a3f430cc1c7488100bd723d4fe50f57a9e3863da204b9c59a769fdecd0d",
+          "sha1": "3a3012292db08b877e00faaf9bc137d535c70a0c",
+          "md5": "94576a7951a376077612330e519aeeef"
+        }
+      ]
+    }
+  ]
+}
