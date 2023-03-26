@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.xdark",
+    "module": "deencapsulation",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "gnf5ewmmgjctxkrdui7ju63jlu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "deencapsulation-1.0.jar",
+          "url": "deencapsulation-1.0.jar",
+          "size": 3184,
+          "sha512": "df6c2ba86221de223680139cf947f2b4a61b8663edbefc6b5fdc487af5ea12848712e5f00bc4b061987738e97d25483e83554c0d9211bf2a262dfc65b7062c38",
+          "sha256": "426e0e8ea97abe5c2a114fc3c597d6e55743350c83e8a85449364664f931275e",
+          "sha1": "c1ecf23b89b890434bcd0d0c56ca893d64085797",
+          "md5": "f0956e5b0df236832fcf5a5ddcdc9431"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "deencapsulation-1.0.jar",
+          "url": "deencapsulation-1.0.jar",
+          "size": 3184,
+          "sha512": "df6c2ba86221de223680139cf947f2b4a61b8663edbefc6b5fdc487af5ea12848712e5f00bc4b061987738e97d25483e83554c0d9211bf2a262dfc65b7062c38",
+          "sha256": "426e0e8ea97abe5c2a114fc3c597d6e55743350c83e8a85449364664f931275e",
+          "sha1": "c1ecf23b89b890434bcd0d0c56ca893d64085797",
+          "md5": "f0956e5b0df236832fcf5a5ddcdc9431"
+        }
+      ]
+    }
+  ]
+}

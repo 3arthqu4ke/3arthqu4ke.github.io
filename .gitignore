@@ -1,4 +1,1 @@
 .idea
-# Do not publish others artifacts for now
-/maven/dev
-/maven/fr
