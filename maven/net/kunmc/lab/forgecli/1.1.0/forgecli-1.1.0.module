@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kunmc.lab",
+    "module": "forgecli",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "forgecli-1.1.0.jar",
+          "url": "forgecli-1.1.0.jar",
+          "size": 13821,
+          "sha512": "b6a78ae903d951fd76c00bd4cc3eade16e63b9a6fd595d691862995f2fbf322008b55298e0c2e8d0e729cde8aae227393be8ebd7e3349584230e2cd48021a307",
+          "sha256": "18b7c38181a69b41c40acaaaac6e5a74972cd8876b95f60ecfb87064105b987e",
+          "sha1": "6f90eb55a8229b16dc69af852d2f40d6dd82d002",
+          "md5": "29bf8774df81aafa0a0a54c30426c2c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ForgeCLI",
+          "module": "legacy",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "forgecli-1.1.0.jar",
+          "url": "forgecli-1.1.0.jar",
+          "size": 13821,
+          "sha512": "b6a78ae903d951fd76c00bd4cc3eade16e63b9a6fd595d691862995f2fbf322008b55298e0c2e8d0e729cde8aae227393be8ebd7e3349584230e2cd48021a307",
+          "sha256": "18b7c38181a69b41c40acaaaac6e5a74972cd8876b95f60ecfb87064105b987e",
+          "sha1": "6f90eb55a8229b16dc69af852d2f40d6dd82d002",
+          "md5": "29bf8774df81aafa0a0a54c30426c2c0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "forgecli-1.1.0-sources.jar",
+          "url": "forgecli-1.1.0-sources.jar",
+          "size": 7176,
+          "sha512": "5a9dd0a7680e6a8a6af74a82cba94957f49a275b5807bcace99401d8aaaf29160083d0f169526a98431e474fe55aa59f6628bb141841182bfc575dad30407a6f",
+          "sha256": "920a9358e448e2472f2ec014532ebf6db657691974a7332efe7712f1d740adcc",
+          "sha1": "085cff3d1cbb7c4a2aa1cfc5a424479ea705b47c",
+          "md5": "07395c8c000b99c7341835fe4d194bbd"
+        }
+      ]
+    }
+  ]
+}
