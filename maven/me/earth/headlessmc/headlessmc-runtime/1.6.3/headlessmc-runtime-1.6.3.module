@@ -44,10 +44,10 @@
           "name": "headlessmc-runtime-1.6.3.jar",
           "url": "headlessmc-runtime-1.6.3.jar",
           "size": 92323,
-          "sha512": "b2138731f463dfa58ad2019451f2ea1d65f91f8cd98dfdebc3f529118475b7a35962997e09075c793a7cc2c7dd038991d04e2da411e9322f6a60f7a3274721a1",
-          "sha256": "8546acd8b2229139f3a05e7995d386492075f4e6bf9e2b91a0c6d96acba05952",
-          "sha1": "972f06c8ed479ba64e41487f2074ce5a89fd6847",
-          "md5": "2fd80f0811879270751fd2f68de89090"
+          "sha512": "55b6d947f63f05f6085c9329a34594adc620aa3edf2b1eff5dba3c40d203a2b6f3b29be81d68fedbbeeee14271636a71aa9b088fb356ec91cb2689b41967dacf",
+          "sha256": "4d9e2860483e17cc04296d58fbd2b98ad74081fdc91507c1720f416177cd619a",
+          "sha1": "a95194ab7dfdf98183c01cf5e6015064a4144bfd",
+          "md5": "636e64e9b6238fe865aaa6474b7d4aa9"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "headlessmc-runtime-1.6.3.jar",
           "url": "headlessmc-runtime-1.6.3.jar",
           "size": 92323,
-          "sha512": "b2138731f463dfa58ad2019451f2ea1d65f91f8cd98dfdebc3f529118475b7a35962997e09075c793a7cc2c7dd038991d04e2da411e9322f6a60f7a3274721a1",
-          "sha256": "8546acd8b2229139f3a05e7995d386492075f4e6bf9e2b91a0c6d96acba05952",
-          "sha1": "972f06c8ed479ba64e41487f2074ce5a89fd6847",
-          "md5": "2fd80f0811879270751fd2f68de89090"
+          "sha512": "55b6d947f63f05f6085c9329a34594adc620aa3edf2b1eff5dba3c40d203a2b6f3b29be81d68fedbbeeee14271636a71aa9b088fb356ec91cb2689b41967dacf",
+          "sha256": "4d9e2860483e17cc04296d58fbd2b98ad74081fdc91507c1720f416177cd619a",
+          "sha1": "a95194ab7dfdf98183c01cf5e6015064a4144bfd",
+          "md5": "636e64e9b6238fe865aaa6474b7d4aa9"
         }
       ]
     },

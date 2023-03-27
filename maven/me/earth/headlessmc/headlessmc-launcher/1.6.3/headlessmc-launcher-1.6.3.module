@@ -51,10 +51,10 @@
           "name": "headlessmc-launcher-1.6.3.jar",
           "url": "headlessmc-launcher-1.6.3.jar",
           "size": 1057664,
-          "sha512": "7f21ab1ae40e0360d11b5b1c5456f4e337d4672971b5a10d5185c804da2a58caf766e0d45ba24bf655bb4adb4be7b56170f629bdf76ef87e237c4db0c0c3ba1f",
-          "sha256": "0d4c856089f742ad52fe457e7a7dfbb6e8dc8e04a3703cbdd1e121ad160963fa",
-          "sha1": "4239bc533f68a6ab48317390cbe20cd402153d7d",
-          "md5": "e99b66623b8768b4e6bab4b9e8f327be"
+          "sha512": "53c1093f7b6bbde545de6ccde8dbcd4b3af80b56016f7ec5d68f04ef086bf4b3dd46028caa3afc742af3ed0ee410ce87021086dbae5fb52a900cbf0eab15a48b",
+          "sha256": "fc8c7f54f4a3420b863e0877de44d1e6f3ec3f9e0e623b1a2ea8c91983f9d843",
+          "sha1": "1bfd2a8e3594c01713749d981ea9a7e651c2bd9a",
+          "md5": "eee6f565e5be464a89421753a425ad8e"
         }
       ]
     },
@@ -152,10 +152,10 @@
           "name": "headlessmc-launcher-1.6.3.jar",
           "url": "headlessmc-launcher-1.6.3.jar",
           "size": 1057664,
-          "sha512": "7f21ab1ae40e0360d11b5b1c5456f4e337d4672971b5a10d5185c804da2a58caf766e0d45ba24bf655bb4adb4be7b56170f629bdf76ef87e237c4db0c0c3ba1f",
-          "sha256": "0d4c856089f742ad52fe457e7a7dfbb6e8dc8e04a3703cbdd1e121ad160963fa",
-          "sha1": "4239bc533f68a6ab48317390cbe20cd402153d7d",
-          "md5": "e99b66623b8768b4e6bab4b9e8f327be"
+          "sha512": "53c1093f7b6bbde545de6ccde8dbcd4b3af80b56016f7ec5d68f04ef086bf4b3dd46028caa3afc742af3ed0ee410ce87021086dbae5fb52a900cbf0eab15a48b",
+          "sha256": "fc8c7f54f4a3420b863e0877de44d1e6f3ec3f9e0e623b1a2ea8c91983f9d843",
+          "sha1": "1bfd2a8e3594c01713749d981ea9a7e651c2bd9a",
+          "md5": "eee6f565e5be464a89421753a425ad8e"
         }
       ]
     },

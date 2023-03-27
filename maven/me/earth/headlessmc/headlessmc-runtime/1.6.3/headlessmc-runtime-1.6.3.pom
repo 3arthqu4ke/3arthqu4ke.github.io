@@ -22,5 +22,11 @@
       <version>1.6.3</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>dev.xdark</groupId>
+      <artifactId>deencapsulation</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
