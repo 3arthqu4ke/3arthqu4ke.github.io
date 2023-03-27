@@ -50,11 +50,11 @@
         {
           "name": "headlessmc-launcher-1.6.3.jar",
           "url": "headlessmc-launcher-1.6.3.jar",
-          "size": 1057770,
-          "sha512": "174c57f47441181a5088dbf60081e03b50c07fe3586c2820d2788a251960f8436e5b6f08eaf1a4db50dd6953f3aa40f57af53596dd3947a4f245dfbc9cb92a66",
-          "sha256": "48037f04fc8a744aebe5df7ee87caa0a135e6fc247e2fe79ab7d1d764236b355",
-          "sha1": "16997520566323ed71cc0a62b8fe521f27e9e8ce",
-          "md5": "122df36bbdc34847ea8d1b78595d8f6d"
+          "size": 1057664,
+          "sha512": "7f21ab1ae40e0360d11b5b1c5456f4e337d4672971b5a10d5185c804da2a58caf766e0d45ba24bf655bb4adb4be7b56170f629bdf76ef87e237c4db0c0c3ba1f",
+          "sha256": "0d4c856089f742ad52fe457e7a7dfbb6e8dc8e04a3703cbdd1e121ad160963fa",
+          "sha1": "4239bc533f68a6ab48317390cbe20cd402153d7d",
+          "md5": "e99b66623b8768b4e6bab4b9e8f327be"
         }
       ]
     },
@@ -114,14 +114,14 @@
           "group": "fr.litarvan",
           "module": "openauth",
           "version": {
-            "requires": "1.1.4"
+            "requires": "1.1.5"
           }
         },
         {
-          "group": "com.github.3arthqu4ke",
-          "module": "ForgeCLI",
+          "group": "net.kunmc.lab",
+          "module": "forgecli",
           "version": {
-            "requires": "1.1.2"
+            "requires": "1.1.0"
           },
           "excludes": [
             {
@@ -139,7 +139,7 @@
           ],
           "thirdPartyCompatibility": {
             "artifactSelector": {
-              "name": "ForgeCLI",
+              "name": "forgecli",
               "type": "jar",
               "extension": "jar",
               "classifier": "all"
@@ -151,11 +151,11 @@
         {
           "name": "headlessmc-launcher-1.6.3.jar",
           "url": "headlessmc-launcher-1.6.3.jar",
-          "size": 1057770,
-          "sha512": "174c57f47441181a5088dbf60081e03b50c07fe3586c2820d2788a251960f8436e5b6f08eaf1a4db50dd6953f3aa40f57af53596dd3947a4f245dfbc9cb92a66",
-          "sha256": "48037f04fc8a744aebe5df7ee87caa0a135e6fc247e2fe79ab7d1d764236b355",
-          "sha1": "16997520566323ed71cc0a62b8fe521f27e9e8ce",
-          "md5": "122df36bbdc34847ea8d1b78595d8f6d"
+          "size": 1057664,
+          "sha512": "7f21ab1ae40e0360d11b5b1c5456f4e337d4672971b5a10d5185c804da2a58caf766e0d45ba24bf655bb4adb4be7b56170f629bdf76ef87e237c4db0c0c3ba1f",
+          "sha256": "0d4c856089f742ad52fe457e7a7dfbb6e8dc8e04a3703cbdd1e121ad160963fa",
+          "sha1": "4239bc533f68a6ab48317390cbe20cd402153d7d",
+          "md5": "e99b66623b8768b4e6bab4b9e8f327be"
         }
       ]
     },

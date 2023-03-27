@@ -44,10 +44,10 @@
           "name": "headlessmc-runtime-1.6.3.jar",
           "url": "headlessmc-runtime-1.6.3.jar",
           "size": 92323,
-          "sha512": "c0255fc1d6a2241b2bd11cba7536d937ae8a32b204c7374f08346663c84e9fe42abe356ae9448adbf5d3bc058cc52a633b399ef9645a2a774ac1f85cca1a2df6",
-          "sha256": "f298b5381b15da29770dc2de44765d86c00b1bd0f7f364991a3f169381ddbe93",
-          "sha1": "d77edcffde7b191a58b40b53f191938e2f4ec0f9",
-          "md5": "5330ce5ce23c0581da0c493f710d5d1d"
+          "sha512": "b2138731f463dfa58ad2019451f2ea1d65f91f8cd98dfdebc3f529118475b7a35962997e09075c793a7cc2c7dd038991d04e2da411e9322f6a60f7a3274721a1",
+          "sha256": "8546acd8b2229139f3a05e7995d386492075f4e6bf9e2b91a0c6d96acba05952",
+          "sha1": "972f06c8ed479ba64e41487f2074ce5a89fd6847",
+          "md5": "2fd80f0811879270751fd2f68de89090"
         }
       ]
     },
@@ -76,10 +76,10 @@
           }
         },
         {
-          "group": "com.github.xxDark",
+          "group": "dev.xdark",
           "module": "deencapsulation",
           "version": {
-            "requires": "master-SNAPSHOT"
+            "requires": "1.0"
           }
         }
       ],
@@ -88,10 +88,10 @@
           "name": "headlessmc-runtime-1.6.3.jar",
           "url": "headlessmc-runtime-1.6.3.jar",
           "size": 92323,
-          "sha512": "c0255fc1d6a2241b2bd11cba7536d937ae8a32b204c7374f08346663c84e9fe42abe356ae9448adbf5d3bc058cc52a633b399ef9645a2a774ac1f85cca1a2df6",
-          "sha256": "f298b5381b15da29770dc2de44765d86c00b1bd0f7f364991a3f169381ddbe93",
-          "sha1": "d77edcffde7b191a58b40b53f191938e2f4ec0f9",
-          "md5": "5330ce5ce23c0581da0c493f710d5d1d"
+          "sha512": "b2138731f463dfa58ad2019451f2ea1d65f91f8cd98dfdebc3f529118475b7a35962997e09075c793a7cc2c7dd038991d04e2da411e9322f6a60f7a3274721a1",
+          "sha256": "8546acd8b2229139f3a05e7995d386492075f4e6bf9e2b91a0c6d96acba05952",
+          "sha1": "972f06c8ed479ba64e41487f2074ce5a89fd6847",
+          "md5": "2fd80f0811879270751fd2f68de89090"
         }
       ]
     },
