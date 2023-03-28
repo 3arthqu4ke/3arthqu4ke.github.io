@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "hmc-specifics-fabric",
+    "version": "1.19.4-1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-fabric-1.19.4-1.2.2.jar",
+          "url": "hmc-specifics-fabric-1.19.4-1.2.2.jar",
+          "size": 152705,
+          "sha512": "212a35d5222707f696f28ff9f19353e68a29c4a589f1c6abe751dfecee87ec9901bd53f63a2507b182d9dd0535464a7de4533a44244087815231acca724a7315",
+          "sha256": "7aa0e0a163d3e99997408d724a3d55affca113a9d87cbb025f4a7aefba13e252",
+          "sha1": "e5d41a73c79bbb00036d7743cadc3f0a78c6ef03",
+          "md5": "c125d5a92fbb823aefa66db6bccc4668"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-fabric-1.19.4-1.2.2.jar",
+          "url": "hmc-specifics-fabric-1.19.4-1.2.2.jar",
+          "size": 152705,
+          "sha512": "212a35d5222707f696f28ff9f19353e68a29c4a589f1c6abe751dfecee87ec9901bd53f63a2507b182d9dd0535464a7de4533a44244087815231acca724a7315",
+          "sha256": "7aa0e0a163d3e99997408d724a3d55affca113a9d87cbb025f4a7aefba13e252",
+          "sha1": "e5d41a73c79bbb00036d7743cadc3f0a78c6ef03",
+          "md5": "c125d5a92fbb823aefa66db6bccc4668"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-fabric-1.19.4-1.2.2-dev-shadow.jar",
+          "url": "hmc-specifics-fabric-1.19.4-1.2.2-dev-shadow.jar",
+          "size": 137285,
+          "sha512": "f6e8b54b66a51d85f56d30fc526aafbe9e1023537cf26da758842e44c2a0e027f48f04cfa148ef910cb16d39720b0325a2c522e7c902447b6f4957b8dd6750a4",
+          "sha256": "4802e6ee7adf9171f73da3343704e3915963f2408b59bda3471e97fbcd0230e5",
+          "sha1": "65895e393d0737ebd60ccb73e96caf8aa141fd32",
+          "md5": "3d428a54b9a46981959b99668b6712a8"
+        }
+      ]
+    }
+  ]
+}

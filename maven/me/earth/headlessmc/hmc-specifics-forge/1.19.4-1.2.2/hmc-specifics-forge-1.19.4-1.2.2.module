@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "hmc-specifics-forge",
+    "version": "1.19.4-1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-forge-1.19.4-1.2.2.jar",
+          "url": "hmc-specifics-forge-1.19.4-1.2.2.jar",
+          "size": 154755,
+          "sha512": "31366e9d86f6ee237a2574f8abf7bf3cf00959f5e4ec7c8070060c2fa0499d29e1a4488b68951a75b98d4e7ed172132d3da43912b027026b48c827e91e488860",
+          "sha256": "e045e683a4abdff663fe79a26dd1d1f3bcb2e05d9e231c919e4841ba0ed3fac3",
+          "sha1": "7b73d8d54f3b0bc1665bba2df57fb2727e2e18ba",
+          "md5": "5edf8d4685b2cc5c73a838582a27d12e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-forge-1.19.4-1.2.2.jar",
+          "url": "hmc-specifics-forge-1.19.4-1.2.2.jar",
+          "size": 154755,
+          "sha512": "31366e9d86f6ee237a2574f8abf7bf3cf00959f5e4ec7c8070060c2fa0499d29e1a4488b68951a75b98d4e7ed172132d3da43912b027026b48c827e91e488860",
+          "sha256": "e045e683a4abdff663fe79a26dd1d1f3bcb2e05d9e231c919e4841ba0ed3fac3",
+          "sha1": "7b73d8d54f3b0bc1665bba2df57fb2727e2e18ba",
+          "md5": "5edf8d4685b2cc5c73a838582a27d12e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-forge-1.19.4-1.2.2-dev-shadow.jar",
+          "url": "hmc-specifics-forge-1.19.4-1.2.2-dev-shadow.jar",
+          "size": 139008,
+          "sha512": "2d9b15c6e6f6564d80fcfb98f2bca433a6470298bf0a8a42f405bb3579bcd3c5e9468f26b5a716ee02440ebeeecba20f96b3bbd9850e6d37e381d17a8a54afa0",
+          "sha256": "0f0af903ea2c3275eadf0e00941776236db678eeb387cc2fe4d5eae0cf7a8a7b",
+          "sha1": "9c775c3a86b25bacb18799bc85a9db6491fbd7a0",
+          "md5": "696d2bb4c93154ec66d699d6d080ccaf"
+        }
+      ]
+    }
+  ]
+}
