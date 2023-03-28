@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "hmc-specifics-api",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-1.2.0.jar",
+          "url": "hmc-specifics-api-1.2.0.jar",
+          "size": 27074,
+          "sha512": "e19028bddd63fcf63dbd86e5dd79734c1bdf2f5fa78aadf53349031cece6c476890225bc390f63ebae55b2850e13f441aad3a001a03ae64f13fc6cf84a0617d7",
+          "sha256": "31e25744519b1f35598ddd0a862453ce9e91748fe3b9bc7f3f7290319f500470",
+          "sha1": "26365534cbaa1e5fa0a2452044205765060015a9",
+          "md5": "63e4637298bf4492501f943dc88652fd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "headlessmc-lwjgl"
+            },
+            {
+              "group": "*",
+              "module": "headlessmc-launcher"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-api-1.2.0.jar",
+          "url": "hmc-specifics-api-1.2.0.jar",
+          "size": 27074,
+          "sha512": "e19028bddd63fcf63dbd86e5dd79734c1bdf2f5fa78aadf53349031cece6c476890225bc390f63ebae55b2850e13f441aad3a001a03ae64f13fc6cf84a0617d7",
+          "sha256": "31e25744519b1f35598ddd0a862453ce9e91748fe3b9bc7f3f7290319f500470",
+          "sha1": "26365534cbaa1e5fa0a2452044205765060015a9",
+          "md5": "63e4637298bf4492501f943dc88652fd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-1.2.0-sources.jar",
+          "url": "hmc-specifics-api-1.2.0-sources.jar",
+          "size": 17295,
+          "sha512": "d7a8b259a157aba552bd2ad64e6610f6895da2f8b00d4dad4e4e6b7345021bc97e616b4948d210d1e9e57655128129f807bd4f9409f006cf1b63131d3bcc4cd9",
+          "sha256": "3e0d899b519766f3539ad7f0b628099a6f468211d725ffc95715eef4bc95974e",
+          "sha1": "9674f10d18c79f71e825d41e5b8ce7ec85459b6b",
+          "md5": "829a80c2a42778349528e1828568a259"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-1.2.0-javadoc.jar",
+          "url": "hmc-specifics-api-1.2.0-javadoc.jar",
+          "size": 165639,
+          "sha512": "4c1698be5709f23f52a08cc54811ff5db0352f84d39f951fda0638a95d53a6f561b8a2e70b066af0b453fe102a3f29d522cb19e01d93574d36a0f84d417e46e9",
+          "sha256": "5e9e3fc8b39fce0a393a435787e9cafa28c124033eaa566029fe82116dc59aa5",
+          "sha1": "7636fefed600c9454f50f329e3844eca589684df",
+          "md5": "0710442b4b268552734a53757300c050"
+        }
+      ]
+    }
+  ]
+}
