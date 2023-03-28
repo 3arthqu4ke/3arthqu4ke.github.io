@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-lwjgl",
+    "version": "1.6.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.6.4.jar",
+          "url": "headlessmc-lwjgl-1.6.4.jar",
+          "size": 35215,
+          "sha512": "f29f08842a8b1b3c1a804119eaf1510aa0534c1cfc5764cfb8524e5008e897fe9324986a0f7d4d63ba6e5e86e40c4126b8f508f2a79acdff7100cd668a504788",
+          "sha256": "7e21443266b1917d5b0f85899bf263ece0e4803f1f2f12d0afb87c1877ebe549",
+          "sha1": "6abeea30779e2f0bb2cbeb8df31b036381668edf",
+          "md5": "95484369bd7c9b2c476d223da18c6832"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.6.4.jar",
+          "url": "headlessmc-lwjgl-1.6.4.jar",
+          "size": 35215,
+          "sha512": "f29f08842a8b1b3c1a804119eaf1510aa0534c1cfc5764cfb8524e5008e897fe9324986a0f7d4d63ba6e5e86e40c4126b8f508f2a79acdff7100cd668a504788",
+          "sha256": "7e21443266b1917d5b0f85899bf263ece0e4803f1f2f12d0afb87c1877ebe549",
+          "sha1": "6abeea30779e2f0bb2cbeb8df31b036381668edf",
+          "md5": "95484369bd7c9b2c476d223da18c6832"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.6.4-release.jar",
+          "url": "headlessmc-lwjgl-1.6.4-release.jar",
+          "size": 206622,
+          "sha512": "1321b3b19c62e336b80f4bef4ff14dcbf13b0f58751336a8b3ef57f96ca18d00e817bc00b5b1ebd5c4873fc1acb24e93d7f84910d53233e5a59ff0803767d96b",
+          "sha256": "a36327de9d1deb53e48e96e42b9dfd3a6879bfe0572b34b7453c2628637d0b3d",
+          "sha1": "4626ad7358962d70795b5b5d116f73ad9d32aa6f",
+          "md5": "2876e003da4530a69be90cc829fa7b25"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.6.4-sources.jar",
+          "url": "headlessmc-lwjgl-1.6.4-sources.jar",
+          "size": 20662,
+          "sha512": "25088ab6df74d87913ce8da09dab6683ec8b93236b43a0bf30090a6ba381c081098a78cb952ab9c1ca9d6bcf9f22dad80513e7ad08b94fcf2a069ee77216dba3",
+          "sha256": "527de4f377a1533d116fb9db76711eb6cac4b82cf2feb76246b82600fd4b9088",
+          "sha1": "631676892f85744c7bd3fb234ceddfa672d9384b",
+          "md5": "8850d69ea9cd7696b7e4a108bd584a00"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.6.4-javadoc.jar",
+          "url": "headlessmc-lwjgl-1.6.4-javadoc.jar",
+          "size": 139530,
+          "sha512": "78fa6d1bb94a774c51c75e91342623d0483fe12f93059cb3e0e0dd2e9c07e74a33afefc1b41936f76263aec87f1d5c167d2f50d12d02b2e59f829139472f1b6a",
+          "sha256": "9f86c7bb1351bd6be4133fdb81da4a8032266b1f156af65843f946946ded8abc",
+          "sha1": "5d55d93d7b0f1183f53b3e30e242a118916e573e",
+          "md5": "589f2dc27327d6d7e173636baee24873"
+        }
+      ]
+    }
+  ]
+}

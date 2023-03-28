@@ -3,11 +3,12 @@
   <groupId>me.earth.headlessmc</groupId>
   <artifactId>headlessmc-launcher</artifactId>
   <versioning>
-    <latest>1.6.3</latest>
-    <release>1.6.3</release>
+    <latest>1.6.4</latest>
+    <release>1.6.4</release>
     <versions>
       <version>1.6.3</version>
+      <version>1.6.4</version>
     </versions>
-    <lastUpdated>20230327214249</lastUpdated>
+    <lastUpdated>20230328132721</lastUpdated>
   </versioning>
 </metadata>
