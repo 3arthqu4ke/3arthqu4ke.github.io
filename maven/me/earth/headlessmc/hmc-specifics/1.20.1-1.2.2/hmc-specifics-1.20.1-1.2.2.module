@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "hmc-specifics",
+    "version": "1.20.1-1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-1.20.1-1.2.2.jar",
+          "url": "hmc-specifics-1.20.1-1.2.2.jar",
+          "size": 20785,
+          "sha512": "0edc5e0d8ee0c157c7a1934cfaa4c2ba1c0ce08b8d8f6e76063179079dbcf73ef8d10071c989ddb57360c4dbaa4cf42f8da64aab4ed40934a765a1784272699a",
+          "sha256": "7c1e9696e4775f087091b47689a4f6c58af6f9cc6907696ed30109f4c6bc53bd",
+          "sha1": "40ed7a7ab26cb64c50236fbed8730d749f22b671",
+          "md5": "e2c749801332f1e82ee6c29052aed5eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "hmc-specifics-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-1.20.1-1.2.2.jar",
+          "url": "hmc-specifics-1.20.1-1.2.2.jar",
+          "size": 20785,
+          "sha512": "0edc5e0d8ee0c157c7a1934cfaa4c2ba1c0ce08b8d8f6e76063179079dbcf73ef8d10071c989ddb57360c4dbaa4cf42f8da64aab4ed40934a765a1784272699a",
+          "sha256": "7c1e9696e4775f087091b47689a4f6c58af6f9cc6907696ed30109f4c6bc53bd",
+          "sha1": "40ed7a7ab26cb64c50236fbed8730d749f22b671",
+          "md5": "e2c749801332f1e82ee6c29052aed5eb"
+        }
+      ]
+    }
+  ]
+}
