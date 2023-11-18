@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-lwjgl",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.0-dev.jar",
+          "url": "headlessmc-lwjgl-1.8.0-dev.jar",
+          "size": 37930,
+          "sha512": "d3fed4b2134da0f04177589b41f9c6ecc4c94212ed576097c639a922685bce6390f793fbaac6c75f811027d8038ff740669c69c91edf3949d12fe45a5ec1c0d1",
+          "sha256": "52f64f938e20273fc8246ec4f7555db054318564f93aadf7920f2b65b2031f27",
+          "sha1": "e8e671cc96b21d8ba89967edc4f11c30f77070c0",
+          "md5": "bcf4028c96c818deb1d39b8e05b2e509"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.0-dev.jar",
+          "url": "headlessmc-lwjgl-1.8.0-dev.jar",
+          "size": 37930,
+          "sha512": "d3fed4b2134da0f04177589b41f9c6ecc4c94212ed576097c639a922685bce6390f793fbaac6c75f811027d8038ff740669c69c91edf3949d12fe45a5ec1c0d1",
+          "sha256": "52f64f938e20273fc8246ec4f7555db054318564f93aadf7920f2b65b2031f27",
+          "sha1": "e8e671cc96b21d8ba89967edc4f11c30f77070c0",
+          "md5": "bcf4028c96c818deb1d39b8e05b2e509"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.0-sources.jar",
+          "url": "headlessmc-lwjgl-1.8.0-sources.jar",
+          "size": 22010,
+          "sha512": "ae4663d72a4b4a66435301b47466843af0967aa904a3a82e9fbfffa4a435237c8b1720b63b5fdf8343688f64418c0140e6621df2492f31981c93947cd1190710",
+          "sha256": "e30e5ce5994d91243b674730d3d6a272b2800dc8515dee9e16bd36bcc521d338",
+          "sha1": "16626dd1b53743d72ba2396c0cc421afed12eb46",
+          "md5": "3f80b9949597b94eb689ad273965225d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.0-javadoc.jar",
+          "url": "headlessmc-lwjgl-1.8.0-javadoc.jar",
+          "size": 147168,
+          "sha512": "e0b16ce44ab240bdc486208db4ed21d446d5a33582d002da60fce49729c19b4e90db42c98ba2c43021816c099ec7663d763171b6969012e69977080505ba7607",
+          "sha256": "8b639d6bef3971855e281f3c140ec76670de06727ce5edf149accf8218b80195",
+          "sha1": "354f3e9df9dd5583e985a3d9cc7d824cab7c2cca",
+          "md5": "659dd70f67ea41d8d8855ce700da02aa"
+        }
+      ]
+    }
+  ]
+}

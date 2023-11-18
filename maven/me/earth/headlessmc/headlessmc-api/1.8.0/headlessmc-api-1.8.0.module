@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-api",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-1.8.0-dev.jar",
+          "url": "headlessmc-api-1.8.0-dev.jar",
+          "size": 8615,
+          "sha512": "e2157e0ac0ff80e5033d90560b2b0d18253a7ba2240898f91f3920824fc3cf7405602988b01bfbc930138b322af71124ef8538217406785810e033ce5bf4395b",
+          "sha256": "19818ddc6dbc8ffc76a9deb97a1b4d0d10c317ab99e524755b0cb78803a52037",
+          "sha1": "7890701c368d2ef2f5b777e2e56d2226bd45f2a3",
+          "md5": "0dd8f2afa624c64459e0c0eabe82deca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-1.8.0-dev.jar",
+          "url": "headlessmc-api-1.8.0-dev.jar",
+          "size": 8615,
+          "sha512": "e2157e0ac0ff80e5033d90560b2b0d18253a7ba2240898f91f3920824fc3cf7405602988b01bfbc930138b322af71124ef8538217406785810e033ce5bf4395b",
+          "sha256": "19818ddc6dbc8ffc76a9deb97a1b4d0d10c317ab99e524755b0cb78803a52037",
+          "sha1": "7890701c368d2ef2f5b777e2e56d2226bd45f2a3",
+          "md5": "0dd8f2afa624c64459e0c0eabe82deca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-1.8.0-sources.jar",
+          "url": "headlessmc-api-1.8.0-sources.jar",
+          "size": 7075,
+          "sha512": "b47a45edc4f7837805495a6985e086657d521214a57999b58c28909d5f9242bb3847562dbcf00949f544ccc41a3ae6c6c9e0e2fa51238644eb28df7007caf826",
+          "sha256": "c9fd8eb9bd5ce15a9c10ff8b4da3f8f9d2e5d06fa87cf852541c7363b642bc29",
+          "sha1": "907da35aca39654843c0c4615c1156310a4b9d4f",
+          "md5": "22c76cc00cf4420d13a9c22518881c89"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-1.8.0-javadoc.jar",
+          "url": "headlessmc-api-1.8.0-javadoc.jar",
+          "size": 82720,
+          "sha512": "7149526ea3cf8dc11f43b25e46d10d9df794636f7fc620d7a2a9dae0cbbe88e0b4d9ae7b55bbf3d9ceb2b035314979f9dc757e2c472e375e00711bb6e2900b9d",
+          "sha256": "9e987a7513bec04d9753535871033a0c4f3769c6f60bb61315c5e64383469ed3",
+          "sha1": "e20a2904a32e65f0186c4e6f8ba0bdde18ed17fa",
+          "md5": "121790bee8ebf527c025fcece358106a"
+        }
+      ]
+    }
+  ]
+}
