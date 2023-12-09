@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher",
+    "version": "1.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-commons",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.8.1-dev.jar",
+          "url": "headlessmc-launcher-1.8.1-dev.jar",
+          "size": 483316,
+          "sha512": "f567ce2bda4ad1d3f6581b2d88e137275960499548759d620e80c7b7e5e77ed8d2ee699cf425ce7df19ba6ee38a2e80a3e8153f152462a342ca50ca6189f748f",
+          "sha256": "3c1432092bcc9ca139f9907576e8eb9e656b2c5321824c42ef3aaded4743f295",
+          "sha1": "7d95316e67552e54acadcd33b20d16b53fa58867",
+          "md5": "d133ff6c6d653a399952912d57837d1b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-commons",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "fr.litarvan",
+          "module": "openauth",
+          "version": {
+            "requires": "1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.8.1-dev.jar",
+          "url": "headlessmc-launcher-1.8.1-dev.jar",
+          "size": 483316,
+          "sha512": "f567ce2bda4ad1d3f6581b2d88e137275960499548759d620e80c7b7e5e77ed8d2ee699cf425ce7df19ba6ee38a2e80a3e8153f152462a342ca50ca6189f748f",
+          "sha256": "3c1432092bcc9ca139f9907576e8eb9e656b2c5321824c42ef3aaded4743f295",
+          "sha1": "7d95316e67552e54acadcd33b20d16b53fa58867",
+          "md5": "d133ff6c6d653a399952912d57837d1b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.8.1-sources.jar",
+          "url": "headlessmc-launcher-1.8.1-sources.jar",
+          "size": 93148,
+          "sha512": "54f8fe519e4c371dc723f9415b9cad8ad3b20ef88724c632d2810472613df3186760ce012f2230ca138207ce3d39707b40f3fee2c5895e0e9d5321432eaa11f7",
+          "sha256": "19a1ce026bf861fa023f7be41c419ae447d7e88183af39e48602fd477826f6a9",
+          "sha1": "78d96b279631b981484eb8c9c0d16904210012a3",
+          "md5": "df2487ef39852c6b13392fa634e62e61"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-1.8.1-javadoc.jar",
+          "url": "headlessmc-launcher-1.8.1-javadoc.jar",
+          "size": 489570,
+          "sha512": "196513700508833a6604b3f925518246f7ac36c2885f81822bfc54f476d5ab5555773e542ab6cd9ba22c2e17b37c0851a131321a9173bb552fbfa3a36cab2d38",
+          "sha256": "43f89fb1b61ecafe266f0802b1bdc5b2cfd63d10dd2eee8b0697b90ab0b67147",
+          "sha1": "b1c006979368f0df9253c2b2dc6f670f32200d6a",
+          "md5": "80c5a4e6a9bbe8384db260f5a00bf26d"
+        }
+      ]
+    }
+  ]
+}

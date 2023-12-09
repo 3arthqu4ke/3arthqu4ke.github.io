@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-lwjgl",
+    "version": "1.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.1-dev.jar",
+          "url": "headlessmc-lwjgl-1.8.1-dev.jar",
+          "size": 39140,
+          "sha512": "aadb4b3a4fedfcc1db5847fe814b06805862a43c58f2ffab470a7a61b42edf77ccb243bc97ae82c2fcbb904f268b6811ab2c66b620e1a3598f04de49529e088b",
+          "sha256": "187da8a8a7632293bac1c33c95582a511b08786414cc06e85f30ba41cba45790",
+          "sha1": "b2a3b902ae9f9cf0c8faf3c03b7a07f2be0d3388",
+          "md5": "d6f9f7491671af44e2d3e89ae46f5bba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.1-dev.jar",
+          "url": "headlessmc-lwjgl-1.8.1-dev.jar",
+          "size": 39140,
+          "sha512": "aadb4b3a4fedfcc1db5847fe814b06805862a43c58f2ffab470a7a61b42edf77ccb243bc97ae82c2fcbb904f268b6811ab2c66b620e1a3598f04de49529e088b",
+          "sha256": "187da8a8a7632293bac1c33c95582a511b08786414cc06e85f30ba41cba45790",
+          "sha1": "b2a3b902ae9f9cf0c8faf3c03b7a07f2be0d3388",
+          "md5": "d6f9f7491671af44e2d3e89ae46f5bba"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.1-sources.jar",
+          "url": "headlessmc-lwjgl-1.8.1-sources.jar",
+          "size": 22767,
+          "sha512": "9d8dbfe8e8a65376554baa4a26c8331d14ebae16c4218fb2e9555e634bf560213f597b2176888b2c8dd1391fd8a6a11f2a480aeabda096cd86affb485b1148e5",
+          "sha256": "58b42149782dfe82751549f848845ccbf325f89cb78001b261e7ec53c098c38a",
+          "sha1": "c0e1c7bd6b2b3710e9e5132977fb0fd2c6fd1bfb",
+          "md5": "762860042de889c34c51512982f763e3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-lwjgl-1.8.1-javadoc.jar",
+          "url": "headlessmc-lwjgl-1.8.1-javadoc.jar",
+          "size": 151032,
+          "sha512": "1a0a05600305eb99ec0ae71208cfdb453367caf19dfa1f12c442c7d4dcf845d957be48a97ea9c5ce99addfa4d2864671c276eff3844114d3c739c8670c4e3306",
+          "sha256": "880389dd1d413870959bf19845839dcce9c200661f123cc736318b68620e8965",
+          "sha1": "035cce5dda8e8a111310294362390b0b3d25af50",
+          "md5": "b02e5e9599e0e03da70b02a5be941ad9"
+        }
+      ]
+    }
+  ]
+}
