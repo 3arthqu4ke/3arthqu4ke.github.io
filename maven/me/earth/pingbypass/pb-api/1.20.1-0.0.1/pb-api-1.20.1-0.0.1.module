@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-api",
+    "version": "1.20.1-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-1.20.1-0.0.1.jar",
+          "url": "pb-api-1.20.1-0.0.1.jar",
+          "size": 236718,
+          "sha512": "8311ab93549c301f698fcd542096da8fc6181291b43f24ce9651527d28ac02d862af92bb5d08eb98fef81e2e82b67b3aef234fbb98c1168a39c76e1e804328cf",
+          "sha256": "6b9a5e0c21ff6bc9c92e173a8c5758d9d7559d7225b4c1f86d0e262694aa0207",
+          "sha1": "70b038b0a7262dfc53ad047ce3250a2b57c06125",
+          "md5": "e9e8fdd201567577497da30c84dae265"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-1.20.1-0.0.1.jar",
+          "url": "pb-api-1.20.1-0.0.1.jar",
+          "size": 236718,
+          "sha512": "8311ab93549c301f698fcd542096da8fc6181291b43f24ce9651527d28ac02d862af92bb5d08eb98fef81e2e82b67b3aef234fbb98c1168a39c76e1e804328cf",
+          "sha256": "6b9a5e0c21ff6bc9c92e173a8c5758d9d7559d7225b4c1f86d0e262694aa0207",
+          "sha1": "70b038b0a7262dfc53ad047ce3250a2b57c06125",
+          "md5": "e9e8fdd201567577497da30c84dae265"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-api-1.20.1-0.0.1-sources.jar",
+          "url": "pb-api-1.20.1-0.0.1-sources.jar",
+          "size": 120895,
+          "sha512": "3badabe2d7ad94cf34440d22f07f036779a7581ace3034d8cef31377d0584ca3b08619801137f73854f38a06943a9d8dd25ae5b7b6134261b574751aa19b16b4",
+          "sha256": "42a70cccf2f974799418d28fef4c1d773cc995a536c87456441f3c5fe4443243",
+          "sha1": "5b4727a9254c4e3f63a456ef5c25fee90239d547",
+          "md5": "e536155665032c6a37b002559e9b9b52"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-api-1.20.1-0.0.1-javadoc.jar",
+          "url": "pb-api-1.20.1-0.0.1-javadoc.jar",
+          "size": 1093684,
+          "sha512": "f0dd2a123c6b3fee16bfe671bf9aaa28bda295d0c9bb9a10cd39459c018129108500c7dc6314993e9340243359d45e1fcd86daeb6ea04b3f58506582b31ca2cc",
+          "sha256": "df657f8ac69961f360ea66297fe380c0c9592980f54ffe495bc54d13b583ec1d",
+          "sha1": "9353c9fc27c283c6b6729f98c229efe419a7c445",
+          "md5": "470fec7cc5274018b7b0634af4a9af7e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-client-forge",
+    "version": "1.20.1-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-client",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-client-forge-1.20.1-0.0.1.jar",
+          "url": "pb-client-forge-1.20.1-0.0.1.jar",
+          "size": 2878,
+          "sha512": "a5230689c835a31e925dd83a8035fcea040ae98b472562b3d1ba20081c435ed5fe2a51f64aa1bdd1b247a16b7506b346bb6300fa56ebc44aea434b3785b4aa34",
+          "sha256": "4f528969ce1d45e6c01b1956191b3288abf0c702d847adcf210947acf05d4b80",
+          "sha1": "5bb3653f7ee8457584be1b67c26c05c2cded5378",
+          "md5": "78ec2edd601c2b60e44bf358fd381718"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-client",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.1-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-client-forge-1.20.1-0.0.1.jar",
+          "url": "pb-client-forge-1.20.1-0.0.1.jar",
+          "size": 2878,
+          "sha512": "a5230689c835a31e925dd83a8035fcea040ae98b472562b3d1ba20081c435ed5fe2a51f64aa1bdd1b247a16b7506b346bb6300fa56ebc44aea434b3785b4aa34",
+          "sha256": "4f528969ce1d45e6c01b1956191b3288abf0c702d847adcf210947acf05d4b80",
+          "sha1": "5bb3653f7ee8457584be1b67c26c05c2cded5378",
+          "md5": "78ec2edd601c2b60e44bf358fd381718"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-client-forge-1.20.1-0.0.1-sources.jar",
+          "url": "pb-client-forge-1.20.1-0.0.1-sources.jar",
+          "size": 1186,
+          "sha512": "c8cca1d689b90167e4bd6be9634f0249a6e5e72c2401f55ad66dc235fc08494328ee01be8098f7d752e4db5d2f42359105a9e6c84e35ec80dfeea1549570ee46",
+          "sha256": "19e2b97b63675ac81a991c56c4f006ad96d3129e3714205e5ff32fc2b3cf36b5",
+          "sha1": "024eea8237c229d9c477930f366a8ca1c4295186",
+          "md5": "6adfdf369db08b56bdea17a803d5d86a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-client-forge-1.20.1-0.0.1-javadoc.jar",
+          "url": "pb-client-forge-1.20.1-0.0.1-javadoc.jar",
+          "size": 71945,
+          "sha512": "3f6e2efa4873da0f573f11453680c64752860c141efb3fdb25a1050fb25e5ee01cd4d8aa76e95c31807cdc5e519773330498bde5869e69d6dde7b23cb72ac964",
+          "sha256": "b55cf7b90f49ea3c73e82a26b916326fd2d35fee9fedf18a986fbe18108c55ef",
+          "sha1": "4d77758a4aa17b8eec4d9ecc98b6738db54257f5",
+          "md5": "e4266748920c839c46191476210f4756"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-client-forge-1.20.1-0.0.1-fat.jar",
+          "url": "pb-client-forge-1.20.1-0.0.1-fat.jar",
+          "size": 505801,
+          "sha512": "a0a5e3388d1bc9a1ca0a5599c4074d8f8ac702d69f7cb294e900baf90dbc1bec62eb5701e64cf3228db45451d596797d9e1edee60132c18417eff41ed0145368",
+          "sha256": "12db07f8cd7103ae1a02a1f423856bc7389a728964b8b15809003842509b0a3a",
+          "sha1": "2d59067e5959125e4830b7cf5d3b7b576ae973d3",
+          "md5": "53214ca7a9744cdc56f32c17fb49b502"
+        }
+      ]
+    }
+  ]
+}
