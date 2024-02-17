@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-client",
+    "version": "1.20.4-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-client-1.20.4-0.0.1.jar",
+          "url": "pb-client-1.20.4-0.0.1.jar",
+          "size": 15545,
+          "sha512": "c6bdbe20a2026f4800727111a71a4bd520e8b4e85563a5163fd13f3833ffcc9d44014a8dbf5e57a03972f12e5c3768511373002a4dc2bcfae9386873b07f0d25",
+          "sha256": "2f0dc23607c9719207d268461d514882fa139a5e6b5f081e0a625da1dff56801",
+          "sha1": "94d48e55b9c45023caef78b607f16d9c4391f3c2",
+          "md5": "20d082e3c19b8094f1ea7f850b0d7f56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-client-1.20.4-0.0.1.jar",
+          "url": "pb-client-1.20.4-0.0.1.jar",
+          "size": 15545,
+          "sha512": "c6bdbe20a2026f4800727111a71a4bd520e8b4e85563a5163fd13f3833ffcc9d44014a8dbf5e57a03972f12e5c3768511373002a4dc2bcfae9386873b07f0d25",
+          "sha256": "2f0dc23607c9719207d268461d514882fa139a5e6b5f081e0a625da1dff56801",
+          "sha1": "94d48e55b9c45023caef78b607f16d9c4391f3c2",
+          "md5": "20d082e3c19b8094f1ea7f850b0d7f56"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-client-1.20.4-0.0.1-sources.jar",
+          "url": "pb-client-1.20.4-0.0.1-sources.jar",
+          "size": 9220,
+          "sha512": "de0da2116c73f989e41b444275fd9067b1edf6c496d455290590f81315b08e2e21a21c22ab3b7f90aa2fab6602638f7d20666a7f66c03f31f97585b21e402d19",
+          "sha256": "0a4c985ef8d44e27be4800beff87701404a7dd5724c08a7ae13a1c85216fd8d5",
+          "sha1": "26c59ef1aeb80af369c2ae0e9b34a9d5bd40cd1c",
+          "md5": "3a74d28685064f6a76b819519e9cc60a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-client-1.20.4-0.0.1-javadoc.jar",
+          "url": "pb-client-1.20.4-0.0.1-javadoc.jar",
+          "size": 135622,
+          "sha512": "f2002ab57fddd6df5981ed5ac494c16a9ba647b8770ccd80e3cd9daafbf2a1d29dfca1f07d1823c0abb7bcc4cbbf45b05761654c883f4f4a328f2cf456b46b9c",
+          "sha256": "674945b9b57cff0f36c75dcb58d04b18dfdb9a6393325a62f7593ddb059a2cc7",
+          "sha1": "0529b9c9ab1312ff45d2c56e5ce77f8f846b34e9",
+          "md5": "64defc76110aaab71f0937d3830d5746"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-server-fabric",
+    "version": "1.20.4-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-server",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-server-fabric-1.20.4-0.0.1.jar",
+          "url": "pb-server-fabric-1.20.4-0.0.1.jar",
+          "size": 739,
+          "sha512": "8c2a18e9aa612fe7e8ef7af281661de6a469a23cf356885435c8900e5ae921a7a10546b2a2f67e59116b8f9dedc5846e0f01e9655be9f203345f538dad405d4d",
+          "sha256": "c6e6eabed2de2883100d41f2f4505f3b6f43cf287d3e573f3defd34bc6f700ad",
+          "sha1": "832cca3b04cc6994179794c93349874eeb7f7d27",
+          "md5": "05faf773bf87b684730f05b8a88d5e93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-server",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-lib",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        },
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-commons",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-server-fabric-1.20.4-0.0.1.jar",
+          "url": "pb-server-fabric-1.20.4-0.0.1.jar",
+          "size": 739,
+          "sha512": "8c2a18e9aa612fe7e8ef7af281661de6a469a23cf356885435c8900e5ae921a7a10546b2a2f67e59116b8f9dedc5846e0f01e9655be9f203345f538dad405d4d",
+          "sha256": "c6e6eabed2de2883100d41f2f4505f3b6f43cf287d3e573f3defd34bc6f700ad",
+          "sha1": "832cca3b04cc6994179794c93349874eeb7f7d27",
+          "md5": "05faf773bf87b684730f05b8a88d5e93"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-fabric-1.20.4-0.0.1-sources.jar",
+          "url": "pb-server-fabric-1.20.4-0.0.1-sources.jar",
+          "size": 261,
+          "sha512": "1990f48c14de641c9dac96ae9c1c3f174bcd8eba349db9495379caebfa0b135d22949d6f82d1338e6049ab7e7e82436d7c7682c526e8105a00faa03558c277a2",
+          "sha256": "9e3d7b4af40cf49a93d0e35751b461a5177623d6b51dcd02ae021c5c3630c6ab",
+          "sha1": "5f5f0e646907207f933cf66329ffdde2f3c57ed4",
+          "md5": "b714de6c4d66010784c5e1b0b930c3ee"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-fabric-1.20.4-0.0.1-javadoc.jar",
+          "url": "pb-server-fabric-1.20.4-0.0.1-javadoc.jar",
+          "size": 261,
+          "sha512": "1990f48c14de641c9dac96ae9c1c3f174bcd8eba349db9495379caebfa0b135d22949d6f82d1338e6049ab7e7e82436d7c7682c526e8105a00faa03558c277a2",
+          "sha256": "9e3d7b4af40cf49a93d0e35751b461a5177623d6b51dcd02ae021c5c3630c6ab",
+          "sha1": "5f5f0e646907207f933cf66329ffdde2f3c57ed4",
+          "md5": "b714de6c4d66010784c5e1b0b930c3ee"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-fabric-1.20.4-0.0.1-fat.jar",
+          "url": "pb-server-fabric-1.20.4-0.0.1-fat.jar",
+          "size": 596616,
+          "sha512": "e4c2848ef9e4f7dac7dedb0be75987ec6a7202b807bdfba2f99a9fd265b1f21e22efc4c170ce3bec3adf771e42335a464f89f7aca2d52aba1a89a653c5401a14",
+          "sha256": "e503d62227fffacccd41909991aca0117e20fd3bb280ddd28e10b4895539e72a",
+          "sha1": "dbdcfcaf7f5e054fd4e9f098630302e96dfe30a4",
+          "md5": "b36bd38816deae25cc89f45e326ece75"
+        }
+      ]
+    }
+  ]
+}

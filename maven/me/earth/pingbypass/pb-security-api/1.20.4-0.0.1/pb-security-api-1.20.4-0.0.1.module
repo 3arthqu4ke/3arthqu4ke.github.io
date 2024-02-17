@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-security-api",
+    "version": "1.20.4-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pb-security-api-1.20.4-0.0.1.jar",
+          "url": "pb-security-api-1.20.4-0.0.1.jar",
+          "size": 8984,
+          "sha512": "b86d790c0403d9b40d05ad7d1bf2132341ddad86765e3344233ea823fdfa7bfc35df6f9aab0711c6d8e8a4c3c67daf789b92bf5e08a9a5eb3b00ee501ed5d773",
+          "sha256": "c9078cb9df5438b284cc3ee996ed066b6c2d6af4691756b2737cfb69593acddb",
+          "sha1": "c91961aa8838eff6ecfe2bf2be11575215303876",
+          "md5": "770540f1930454cab8120d6250371351"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-security-api-1.20.4-0.0.1.jar",
+          "url": "pb-security-api-1.20.4-0.0.1.jar",
+          "size": 8984,
+          "sha512": "b86d790c0403d9b40d05ad7d1bf2132341ddad86765e3344233ea823fdfa7bfc35df6f9aab0711c6d8e8a4c3c67daf789b92bf5e08a9a5eb3b00ee501ed5d773",
+          "sha256": "c9078cb9df5438b284cc3ee996ed066b6c2d6af4691756b2737cfb69593acddb",
+          "sha1": "c91961aa8838eff6ecfe2bf2be11575215303876",
+          "md5": "770540f1930454cab8120d6250371351"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-security-api-1.20.4-0.0.1-sources.jar",
+          "url": "pb-security-api-1.20.4-0.0.1-sources.jar",
+          "size": 4841,
+          "sha512": "e226610e12325fb2c250d86be3a2a97cd3e8b703ece649e4a108207a663d25aad45f2daff9500867336eb41899268a158248b89c4b33b4d57360739bdf4a8c7b",
+          "sha256": "49d39cabd39cec466ab6e448feb02431d986aa7046f61c25f1c809d2318d057c",
+          "sha1": "025e973874e962951945c82b7050ddd8f3bdf439",
+          "md5": "70603a6fdf213d1e6fcb94a5b7b2c812"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-security-api-1.20.4-0.0.1-javadoc.jar",
+          "url": "pb-security-api-1.20.4-0.0.1-javadoc.jar",
+          "size": 100984,
+          "sha512": "8729ff1680938a00e97a0b0d16fd654370567aef4900ff6069566c69f5f9e64720de337ed1da9fe989fed467a23a55e9af97624f571a6002ad0652a55f004b1d",
+          "sha256": "4e42c881a40ba9fc28ca84760d70d35051adb3e963adff8f5b90f6bfb87d5358",
+          "sha1": "d3dbf8c4df37de1ab225ee3565099aee5cb4c830",
+          "md5": "9fc65e692a1cda7f97fab2001508653e"
+        }
+      ]
+    }
+  ]
+}

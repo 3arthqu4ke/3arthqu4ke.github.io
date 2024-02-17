@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-security-lib",
+    "version": "1.20.4-0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-security-lib-1.20.4-0.0.1.jar",
+          "url": "pb-security-lib-1.20.4-0.0.1.jar",
+          "size": 16523,
+          "sha512": "443f76894c0f48677de8e857631ba69261d07e740da03575a92ade07e5cc8621c707ea8e53fa0d02a4891c80fa159a0acd5e94f2946dd94af3835ee2abc00640",
+          "sha256": "98866dfa9b865b1bdb233d2672f86e56c1958207cf40d8402539e6fbe2873fa5",
+          "sha1": "07071143f3b7600abbff81c27be1900923cf178a",
+          "md5": "3f93f9eccd7e5f0e9528cf4502270554"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-security-api",
+          "version": {
+            "requires": "1.20.4-0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-security-lib-1.20.4-0.0.1.jar",
+          "url": "pb-security-lib-1.20.4-0.0.1.jar",
+          "size": 16523,
+          "sha512": "443f76894c0f48677de8e857631ba69261d07e740da03575a92ade07e5cc8621c707ea8e53fa0d02a4891c80fa159a0acd5e94f2946dd94af3835ee2abc00640",
+          "sha256": "98866dfa9b865b1bdb233d2672f86e56c1958207cf40d8402539e6fbe2873fa5",
+          "sha1": "07071143f3b7600abbff81c27be1900923cf178a",
+          "md5": "3f93f9eccd7e5f0e9528cf4502270554"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-security-lib-1.20.4-0.0.1-sources.jar",
+          "url": "pb-security-lib-1.20.4-0.0.1-sources.jar",
+          "size": 8182,
+          "sha512": "a17422039b97d0f8288b1b364cd2108a71c2011ac6fa70458c967fec705e85bf54098f8d88b47e917672e0fa8cbab685617200ca5aca4bb9d1583e414702666f",
+          "sha256": "d593b8453dbc9cb161188edce6a992d3bcbbb94258e81000b579111970699c98",
+          "sha1": "939eda3a3b4de4216d3e7099de69035ce5ae3b18",
+          "md5": "07bcf6c61f9d449000a462df77e31828"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-security-lib-1.20.4-0.0.1-javadoc.jar",
+          "url": "pb-security-lib-1.20.4-0.0.1-javadoc.jar",
+          "size": 106013,
+          "sha512": "a736a42903f82df4d24bbe59b67c70df9de97972e4abab0a99f2db61f790c6a98980275ccb3798c17612180d6ee76d5bd3256e5bcb3e25d7b1375408ca926254",
+          "sha256": "9ac7415fd05556d0c3fb7aafdb6998cd55ad18c37a68446507aa3466712dd2a4",
+          "sha1": "a158a0e42303c9c55c6db4fa69dec4cddb27913c",
+          "md5": "fdc67d7c8f5c0f3ee77fe7588912a659"
+        }
+      ]
+    }
+  ]
+}
