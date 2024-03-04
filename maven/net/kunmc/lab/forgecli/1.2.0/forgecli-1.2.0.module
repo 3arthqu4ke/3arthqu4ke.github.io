@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kunmc.lab",
+    "module": "forgecli",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "forgecli-1.2.0.jar",
+          "url": "forgecli-1.2.0.jar",
+          "size": 14376,
+          "sha512": "c3071dc75d75d6085fb28d8207671353fbf396942489022aa6357371255b89752b638ed9a86a760450347a2139a42ecebd4879b273c1309ab2571f558cef68f0",
+          "sha256": "db4c6e885a2c9be3d69a197b7c006089070526522af4a33739cb404dac0ef04e",
+          "sha1": "ef3062f71748f652c7b41b91d010674b6f65cf2e",
+          "md5": "7c908b5d78ec55a208e7e6c3d39c456c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ForgeCLI",
+          "module": "legacy",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "forgecli-1.2.0.jar",
+          "url": "forgecli-1.2.0.jar",
+          "size": 14376,
+          "sha512": "c3071dc75d75d6085fb28d8207671353fbf396942489022aa6357371255b89752b638ed9a86a760450347a2139a42ecebd4879b273c1309ab2571f558cef68f0",
+          "sha256": "db4c6e885a2c9be3d69a197b7c006089070526522af4a33739cb404dac0ef04e",
+          "sha1": "ef3062f71748f652c7b41b91d010674b6f65cf2e",
+          "md5": "7c908b5d78ec55a208e7e6c3d39c456c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ForgeCLI",
+          "module": "legacy",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "forgecli-1.2.0-all.jar",
+          "url": "forgecli-1.2.0-all.jar",
+          "size": 186646,
+          "sha512": "a596c063983d8bf93b60377803fb520c934113fd069b6bce81ceb74a4ef488ce36004732ac004d6ffab2e15c98ab25277b1bf8db23da558e6d90ed7b37222d78",
+          "sha256": "993c757a495e18a45ef35277691658323c0703c327e4e5cc766a24c6416f60b4",
+          "sha1": "088bac1f700afaa35d208c40a0606f13fda6ada0",
+          "md5": "b9b7c6455a6ccfa12e06ffc37b365892"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "forgecli-1.2.0-sources.jar",
+          "url": "forgecli-1.2.0-sources.jar",
+          "size": 7458,
+          "sha512": "2d40a97266b3073d5c8f599c093908d963d456c985540b851ae9519acc59f437338bd1877647f8813a1554eb73b58ccc94f22c564a6a6f8f7562d395f0c9b3af",
+          "sha256": "190042f438748eb2fecdbd08fe72c1242c49f9eb292e4ecff4f472d373a005ce",
+          "sha1": "52e4cd41d298a9611e7b41743fb79e6cb22433ad",
+          "md5": "6b98ac74548cf2d211c1b61cf1f88bb5"
+        }
+      ]
+    }
+  ]
+}
