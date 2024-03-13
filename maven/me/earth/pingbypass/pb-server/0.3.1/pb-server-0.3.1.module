@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-server",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-server-0.3.1.jar",
+          "url": "pb-server-0.3.1.jar",
+          "size": 124606,
+          "sha512": "d5eb525332b6eb6843e0aa71bf2888952fe4c3c4e918ad1eb08bb019e4f2c7155a98966f6df66e25800a2a79037d3e9ccf6ab0aebc3b4597a19af8c531f07942",
+          "sha256": "fb2af3132b076a5814bce305d5606e67f90b9e61d90e4b7e7e47f8cca214f89f",
+          "sha1": "018ccec01c1fbcdd76a09066086408a5853066ed",
+          "md5": "7dd62404b7d561e0d4a30d08fb4f3505"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-server-0.3.1.jar",
+          "url": "pb-server-0.3.1.jar",
+          "size": 124606,
+          "sha512": "d5eb525332b6eb6843e0aa71bf2888952fe4c3c4e918ad1eb08bb019e4f2c7155a98966f6df66e25800a2a79037d3e9ccf6ab0aebc3b4597a19af8c531f07942",
+          "sha256": "fb2af3132b076a5814bce305d5606e67f90b9e61d90e4b7e7e47f8cca214f89f",
+          "sha1": "018ccec01c1fbcdd76a09066086408a5853066ed",
+          "md5": "7dd62404b7d561e0d4a30d08fb4f3505"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-0.3.1-all.jar",
+          "url": "pb-server-0.3.1-all.jar",
+          "size": 887411,
+          "sha512": "8b79e08e8d06f656dcd67751bf1e545dd42de89cde4eee9ce6c31e12e69cfd472c304105f9171bcec4a72315d5e2a2c669e090ac91ba5a04f55c63f723fe03b0",
+          "sha256": "fd4d94225547942a211097fdb452dbc051faea4c799fcdd4058989bf270a93c1",
+          "sha1": "6d08dac77ff9a6d04ee31341dcda43e482dcf799",
+          "md5": "6631600b568b2ffe2cdd365a4f660c57"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-0.3.1-sources.jar",
+          "url": "pb-server-0.3.1-sources.jar",
+          "size": 59843,
+          "sha512": "79610323aa86af0902f03aa45692bb0dce34a00b23a4b811cdc4ded96e5f69fded17781307fa3510b625c9ea4421f509b146dcc3aa6754fe9319e9d4a822e6ec",
+          "sha256": "f935eb07f1d63c1706b3bdeb7da6c54e7e38f28c960d587d921ac913a718d7aa",
+          "sha1": "874f53672acd70ec5ac6f9c9171c5c7c022f2afd",
+          "md5": "7b29b0d1f0d344898db176be167066b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-server-0.3.1-javadoc.jar",
+          "url": "pb-server-0.3.1-javadoc.jar",
+          "size": 454429,
+          "sha512": "f1eece51d090484983310eab05ff0700de867802af8a5b7ea853df66ea82d11fb47407728582dc5fd8f28473ba233e8b3115bf4596cc59f136db6dd8f843b343",
+          "sha256": "eb549e414bad43ca2acb4b3dec93393f35e072a0ea80caf341d44a5235ed39e5",
+          "sha1": "6d0520280c0d10534b336a6d21cb1f5404b849da",
+          "md5": "8ae0d8d2bc9ac414e24fbbfa1f6960e9"
+        }
+      ]
+    }
+  ]
+}

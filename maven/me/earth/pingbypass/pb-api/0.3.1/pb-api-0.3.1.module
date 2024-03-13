@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.pingbypass",
+    "module": "pb-api",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-0.3.1.jar",
+          "url": "pb-api-0.3.1.jar",
+          "size": 480229,
+          "sha512": "8b8371e5cb62b6682e914d7e0b5982bd35611dca4adb8fd1b7838c00f3bb2dd7228a0a1526bfd78d5cace849536a1842d819e533d77edc9e0e15f57d9f257f49",
+          "sha256": "bb9350128e6d0e2691234603c9baeb59914981b0333ac76f1acfe37ef2b0cdd4",
+          "sha1": "b6eea309d7c5f70162efb0529cd8dbb4430cb143",
+          "md5": "bfd13375f7165fda0422e14ff238cde7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-0.3.1.jar",
+          "url": "pb-api-0.3.1.jar",
+          "size": 480229,
+          "sha512": "8b8371e5cb62b6682e914d7e0b5982bd35611dca4adb8fd1b7838c00f3bb2dd7228a0a1526bfd78d5cace849536a1842d819e533d77edc9e0e15f57d9f257f49",
+          "sha256": "bb9350128e6d0e2691234603c9baeb59914981b0333ac76f1acfe37ef2b0cdd4",
+          "sha1": "b6eea309d7c5f70162efb0529cd8dbb4430cb143",
+          "md5": "bfd13375f7165fda0422e14ff238cde7"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-api-0.3.1-all.jar",
+          "url": "pb-api-0.3.1-all.jar",
+          "size": 763469,
+          "sha512": "db933078acd59d3a7ba96d541363e53c5d3dd11c4b7498cba7f2dcfea1d3fbce2d91adb1f56b2c8f55cff82801c57438e8805aff84d63805052217812bbc8adb",
+          "sha256": "4185cabce2b0c8c82450190d6ed354889fdc45d83b88a4b897754627a1a23416",
+          "sha1": "c9e1df4a158f1bf6b395558bfa6f34001d1ea82a",
+          "md5": "a1787b7d45ae15e846cd8c80945fbd5e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-api-0.3.1-sources.jar",
+          "url": "pb-api-0.3.1-sources.jar",
+          "size": 240904,
+          "sha512": "20740f7933330ca66f0ec6f534a82e37e59c4b3c9997b7151165bb67b41608200a1e287ce5bfe3b1190b47fa5878725954903a8f812591c2724a5c2672aa5dd9",
+          "sha256": "b2800afa4fd05ec647ef1e50c84900a96b3d5ebf51ed37e366aad8c49062e11f",
+          "sha1": "37a9d7ea85199aa9d0a16bc84a3987ff1e506cfe",
+          "md5": "33f1144c6ea36aa62429809b5a10eca5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pb-api-0.3.1-javadoc.jar",
+          "url": "pb-api-0.3.1-javadoc.jar",
+          "size": 1953480,
+          "sha512": "9bcb8fe5cdf11e5cef57d6344739edc92ca2a9f8a89735a78c2b65114c796fb8d8497b93ee20691bde721bc423ff2d7402fff4c87f33a5ff51aa962b08d345e2",
+          "sha256": "903dcfaf108edb97e581c63400bd35f13bacba32b5db54dede770b32cd3ab62a",
+          "sha1": "933694fec1aaeaf66810043603cc326cd60c53b6",
+          "md5": "034ef471d79f7e9a1a72d4ede43611f0"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "0.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-0.3.1-test-fixtures.jar",
+          "url": "pb-api-0.3.1-test-fixtures.jar",
+          "size": 3171,
+          "sha512": "55edcecf690d0ed97d00966734d3981202365a4ee6029a2e47372733adb70e32ecff5319cfd9cfcd4fe51497a90078b1ed3f20b969c15ac67b3fa5a2ff781bec",
+          "sha256": "bd489ad0a06b71197097be5df5e257f7a689b3e887f58b41fae59d1cb931d665",
+          "sha1": "703f178356c6cc6157a9af9f9a501d0b4b6441ae",
+          "md5": "5fbec3e0e22415415aaa77ede1d8601e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "me.earth.pingbypass",
+          "name": "pb-api-test-fixtures",
+          "version": "0.3.1"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.pingbypass",
+          "module": "pb-api",
+          "version": {
+            "requires": "0.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pb-api-0.3.1-test-fixtures.jar",
+          "url": "pb-api-0.3.1-test-fixtures.jar",
+          "size": 3171,
+          "sha512": "55edcecf690d0ed97d00966734d3981202365a4ee6029a2e47372733adb70e32ecff5319cfd9cfcd4fe51497a90078b1ed3f20b969c15ac67b3fa5a2ff781bec",
+          "sha256": "bd489ad0a06b71197097be5df5e257f7a689b3e887f58b41fae59d1cb931d665",
+          "sha1": "703f178356c6cc6157a9af9f9a501d0b4b6441ae",
+          "md5": "5fbec3e0e22415415aaa77ede1d8601e"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "me.earth.pingbypass",
+          "name": "pb-api-test-fixtures",
+          "version": "0.3.1"
+        }
+      ]
+    }
+  ]
+}
