@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "hmc-specifics-api",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-2.1.0.jar",
+          "url": "hmc-specifics-api-2.1.0.jar",
+          "size": 69963,
+          "sha512": "fd8fbb513613a3d378e637d9e7e308ba26c70330e4026a13ec9e2bd2a8a7327fbdf3d07f3e03549926519bb3ea1b47d5824b0ef8ae902279b6f625b31d269faf",
+          "sha256": "6efd0d5d6f073cc5c7a3f9ec5aa8b243757f60b53aa04e96583db1e90f38e20d",
+          "sha1": "391fcca564164ab40a87ce1fdf7f55acbca40903",
+          "md5": "96635cf60e0754dd7e9411bcf1349a06"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-auth",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-jline",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-ansi",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-gson",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-serializer-legacy",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hmc-specifics-api-2.1.0.jar",
+          "url": "hmc-specifics-api-2.1.0.jar",
+          "size": 69963,
+          "sha512": "fd8fbb513613a3d378e637d9e7e308ba26c70330e4026a13ec9e2bd2a8a7327fbdf3d07f3e03549926519bb3ea1b47d5824b0ef8ae902279b6f625b31d269faf",
+          "sha256": "6efd0d5d6f073cc5c7a3f9ec5aa8b243757f60b53aa04e96583db1e90f38e20d",
+          "sha1": "391fcca564164ab40a87ce1fdf7f55acbca40903",
+          "md5": "96635cf60e0754dd7e9411bcf1349a06"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-2.1.0-sources.jar",
+          "url": "hmc-specifics-api-2.1.0-sources.jar",
+          "size": 40216,
+          "sha512": "b0021112876b530a70d3236aa3979f382dd142562d9982d207be46473804faf5c0844f2ef7e80c1fb4dd48c134a2b81de4ac6081058cf926a3dd50addaad5096",
+          "sha256": "cb1a14bbfc52f982704bdc101a3deda20916bf6ec51d54cb1d806ea84ea48ecc",
+          "sha1": "8521891bd28055ad38be199407184a3fa8f9df25",
+          "md5": "2fd72846bd96d9386b3a24c31d542fb4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hmc-specifics-api-2.1.0-javadoc.jar",
+          "url": "hmc-specifics-api-2.1.0-javadoc.jar",
+          "size": 275676,
+          "sha512": "b9b40493c32737bb0672c8306fab65f93a5d7960ccb217f266c2b5e253f0048f97618ac16d8529198aea59a66fb21f1e8c59606397f8746cc9ae32cbe6574cc0",
+          "sha256": "10ca7e224a9796214ff4c0e02940eadbea2dc5e598a1240a89587cb7961eb54f",
+          "sha1": "d6331b7fe8161209f69e29cf9efd3548a517f6f3",
+          "md5": "2782f4f3cd621c924073a55958d8c627"
+        }
+      ]
+    }
+  ]
+}
