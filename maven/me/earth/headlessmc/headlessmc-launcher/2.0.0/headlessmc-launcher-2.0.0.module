@@ -1,0 +1,209 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-logging",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-auth",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "net.raphimc",
+          "module": "MinecraftAuth",
+          "version": {
+            "requires": "4.1.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-2.0.0-dev.jar",
+          "url": "headlessmc-launcher-2.0.0-dev.jar",
+          "size": 3597206,
+          "sha512": "a6a0615c28ac74bba7533b6990900b0749d0a787b2f5aa7c83761f81fb28924726718d2dac4331bca80f7275d2f6261d513a40034224854c258f67dba03921df",
+          "sha256": "e8ef21a078bce7a0335b43b5a757987b1507e3740aa154c0891e5e3de6d578f0",
+          "sha1": "cbf28bc69bf2bb53cda9f24d44e3a9cc269b8f25",
+          "md5": "9a5d6b3401f99f3307d8c8f372800cb8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-logging",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-lwjgl",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-auth",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "net.raphimc",
+          "module": "MinecraftAuth",
+          "version": {
+            "requires": "4.1.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-jline",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-2.0.0-dev.jar",
+          "url": "headlessmc-launcher-2.0.0-dev.jar",
+          "size": 3597206,
+          "sha512": "a6a0615c28ac74bba7533b6990900b0749d0a787b2f5aa7c83761f81fb28924726718d2dac4331bca80f7275d2f6261d513a40034224854c258f67dba03921df",
+          "sha256": "e8ef21a078bce7a0335b43b5a757987b1507e3740aa154c0891e5e3de6d578f0",
+          "sha1": "cbf28bc69bf2bb53cda9f24d44e3a9cc269b8f25",
+          "md5": "9a5d6b3401f99f3307d8c8f372800cb8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-2.0.0-sources.jar",
+          "url": "headlessmc-launcher-2.0.0-sources.jar",
+          "size": 119226,
+          "sha512": "ecd8e7d5077780625aefc3abea0072edadc750228660d7898008bd1c8e7ce0434ce828a35f12e9c891c316b27aa65b4fc915860106e53f987c6a15d90fa6fa28",
+          "sha256": "7ba3885ac271c60f3be9bcfc0bd1bb1704355492d4c689957f8fd459efd408ed",
+          "sha1": "a9b8813775923486f6d5f6273b3357787da5b8a9",
+          "md5": "710093cd025544c67f691e192cd41b41"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-2.0.0-javadoc.jar",
+          "url": "headlessmc-launcher-2.0.0-javadoc.jar",
+          "size": 717595,
+          "sha512": "08c793ba7f4bcea080a33296e736baee580af53ec343ccc541bba130e02bfcf72134641fc803988dda659504aa5529b6532cd1fc0bcb754e2f3adf8f5c464221",
+          "sha256": "ad93ec3df8265880cf774d059cc49bfd9e4111fe305d7dc912f0903ad63ba7f2",
+          "sha1": "5f175c485bea906997ba7465cc82e5fa8b61dc41",
+          "md5": "215873aad8a7ac209119e630c9e2221b"
+        }
+      ]
+    }
+  ]
+}

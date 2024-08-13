@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-wrapper",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.0.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.0.0-dev.jar",
+          "size": 8353920,
+          "sha512": "2b98b4a064088d31997760e399fa9f05820ab549c4ba92562e20dc7f408bc418722f76e8f223eb0ab317bb761e9f55f73ea6cdf9d5919742752b7d14aad3006b",
+          "sha256": "82310d70194965088a4f60158858bb9a106f18e8be11c0c43d377715524993f2",
+          "sha1": "3874db3a5fe861fbcc12f6225aaf1c2274f2e757",
+          "md5": "93acafec1edc9a6e3163908f8a58d485"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-modlauncher",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.0.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.0.0-dev.jar",
+          "size": 8353920,
+          "sha512": "2b98b4a064088d31997760e399fa9f05820ab549c4ba92562e20dc7f408bc418722f76e8f223eb0ab317bb761e9f55f73ea6cdf9d5919742752b7d14aad3006b",
+          "sha256": "82310d70194965088a4f60158858bb9a106f18e8be11c0c43d377715524993f2",
+          "sha1": "3874db3a5fe861fbcc12f6225aaf1c2274f2e757",
+          "md5": "93acafec1edc9a6e3163908f8a58d485"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.0.0-sources.jar",
+          "url": "headlessmc-launcher-wrapper-2.0.0-sources.jar",
+          "size": 5878,
+          "sha512": "38ab5cd7f4b20f4f2d3609ad6ca3db437fa8fcb3ac5b138f3d323aa185112dbc6bdd4f7e3d35cae06edfb901fda9522aab8c8ecdfc03729a7265fb78ee2a235d",
+          "sha256": "b79f52baf89abd8dc9746d4edbe1252725cd43566b89c9f39037577af9bb1bac",
+          "sha1": "455cb272ebb3642ee83add5d8ac000b7dd88dcec",
+          "md5": "66d756ce4e8d538abe12b04671cec69e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.0.0-javadoc.jar",
+          "url": "headlessmc-launcher-wrapper-2.0.0-javadoc.jar",
+          "size": 126742,
+          "sha512": "0706f5382a0cfb146e71ba57cdbfbe6e45743fe2d7d6aebfbca9931a6d2b252ade99488e12761491a9b49cdb158e0b38ba25d16067809063c00840506736d00c",
+          "sha256": "de04d77ff386bc835e26a76bc62e55e00932fb573cc5ffe4ffd820708ca2cdf4",
+          "sha1": "f2eff3cf2bc8d329f3fc3a0581656d7774db343b",
+          "md5": "63a837ab4784345f1261a0e7149227c5"
+        }
+      ]
+    }
+  ]
+}
