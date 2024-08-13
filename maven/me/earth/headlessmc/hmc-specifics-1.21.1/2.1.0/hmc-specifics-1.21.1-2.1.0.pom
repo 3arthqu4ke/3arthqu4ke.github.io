@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.earth.headlessmc</groupId>
+  <artifactId>hmc-specifics-1.21.1</artifactId>
+  <version>2.1.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>net.minecraft</groupId>
+      <artifactId>launchwrapper</artifactId>
+      <version>1.12</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>log4j-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>log4j-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>me.earth.headlessmc</groupId>
+      <artifactId>hmc-specifics-api</artifactId>
+      <version>2.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ImpactDevelopment</groupId>
+      <artifactId>SimpleTweaker</artifactId>
+      <version>1.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.earth.headlessmc</groupId>
+      <artifactId>headlessmc-api</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.earth.headlessmc</groupId>
+      <artifactId>headlessmc-runtime</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.earth.headlessmc</groupId>
+      <artifactId>headlessmc-jline</artifactId>
+      <version>2.0.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>jline</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jline</groupId>
+      <artifactId>jline-terminal-jna</artifactId>
+      <version>3.20.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>jline</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>jline-terminal</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
