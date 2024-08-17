@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-wrapper",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-dev.jar",
+          "size": 8383528,
+          "sha512": "14edc44523a84f1f46fdb77a9dfdae6e9abf1855e4217208e75330fcb70f66c5aee92729ec07f7e659fe19cef9caaccaa2172aed46c75c124a3cb3cdb986257f",
+          "sha256": "8d66c7f10a2cd302af5b08cc59717f3e33cbd721a50b0e346739335e502589c5",
+          "sha1": "3a25355be8b8cc8242457884c03a62ca54587f98",
+          "md5": "83bd34e3c4eb1563650b7683210b85c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-modlauncher",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-dev.jar",
+          "size": 8383528,
+          "sha512": "14edc44523a84f1f46fdb77a9dfdae6e9abf1855e4217208e75330fcb70f66c5aee92729ec07f7e659fe19cef9caaccaa2172aed46c75c124a3cb3cdb986257f",
+          "sha256": "8d66c7f10a2cd302af5b08cc59717f3e33cbd721a50b0e346739335e502589c5",
+          "sha1": "3a25355be8b8cc8242457884c03a62ca54587f98",
+          "md5": "83bd34e3c4eb1563650b7683210b85c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-sources.jar",
+          "size": 6177,
+          "sha512": "dcc773fb653353a9f6c5adbd8c6b893529b7f18a9e2915ff22da75899fd3e99b659154cd699a632e3c3240bb9bc58d92d79039e4c140fc6ee1d6353f24428b69",
+          "sha256": "2c7a57eb03e4891f8f36ccb6556f3d1b2b787c58dc66f6d703cc57dd7f003f1a",
+          "sha1": "98462736c029cd87caab0058bfc29c51697c3677",
+          "md5": "1c502936df6cd1badca28e89115f5bb1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 129676,
+          "sha512": "a28400c14e7db2063bdc41b14f3ea39c9895eb68fa1c1e56a5121e4d483874fb2a3d4f5b9dbce1c42e25f0f0ddcbc14affd24494309e818fa295c3461bf74488",
+          "sha256": "ee736db0d3a9d3624f92c1542c836eb4606734e6364f2fcd23f030d7bdf4e316",
+          "sha1": "14fe27ae2f0cd03ea65cf425f99dc90c038ea5f2",
+          "md5": "f6db6c6544a2692818b8b9d5840cbee4"
+        }
+      ]
+    }
+  ]
+}

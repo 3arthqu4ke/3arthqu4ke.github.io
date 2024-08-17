@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-logging",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-logging-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-logging-2.1.0-SNAPSHOT-dev.jar",
+          "size": 12830,
+          "sha512": "57ab4717c7040e92c94eb56070f2cd136e58fda7e6f718cebe984ba54f91fcfd78bde8da725cf6312c07b82138b4ea154c6bef4d594a164f75b55fc2024749fd",
+          "sha256": "253e72a89257c14ec27c995da75d0b3995cf8a63eb6b5bb3981d92cd66c875dd",
+          "sha1": "e7ec12b739fda4342bb748cdc1e5aff803836e1d",
+          "md5": "f8a1b85ebf783f3e7be8a7a620183d7a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-logging-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-logging-2.1.0-SNAPSHOT-dev.jar",
+          "size": 12830,
+          "sha512": "57ab4717c7040e92c94eb56070f2cd136e58fda7e6f718cebe984ba54f91fcfd78bde8da725cf6312c07b82138b4ea154c6bef4d594a164f75b55fc2024749fd",
+          "sha256": "253e72a89257c14ec27c995da75d0b3995cf8a63eb6b5bb3981d92cd66c875dd",
+          "sha1": "e7ec12b739fda4342bb748cdc1e5aff803836e1d",
+          "md5": "f8a1b85ebf783f3e7be8a7a620183d7a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-logging-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-logging-2.1.0-SNAPSHOT-sources.jar",
+          "size": 7301,
+          "sha512": "1662b533c6d47b76397b7466ac35d3bd4d951ebd82c09a23bb3030a15090a7aff7d78a3ba76df67883534eeaff2017cc4a8cbdbc4b0ad2deb56a31a3f06e11ec",
+          "sha256": "3a99b536070f80470af520f4d67ce8e703d02aa564292bc01fdd4a5826165d4d",
+          "sha1": "7f14530c8c1fd2f86c3aa056297ec175daf79a79",
+          "md5": "f56fb0c6fc1eab71c54988430097b33c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-logging-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-logging-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 144953,
+          "sha512": "7760e476108ee4a71a2ae64e5bcf93c418c651df7c5cb94951ec1d2112f68f39c55b7d8e4a971daaf66942a37acd4d67737459ddc3db8c259194c1324a092f9e",
+          "sha256": "0d303dda726aeb42ecfdb00edb1d9e472b30d85d48af364e9e4263985f609d65",
+          "sha1": "7fa7681541488d473b8bce1b12c7639981424af0",
+          "md5": "20f3e775c167f88bf0965a021db258c8"
+        }
+      ]
+    }
+  ]
+}

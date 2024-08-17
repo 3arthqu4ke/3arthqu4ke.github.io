@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.earth.headlessmc</groupId>
+  <artifactId>headlessmc-web</artifactId>
+  <versioning>
+    <latest>2.1.0-SNAPSHOT</latest>
+    <versions>
+      <version>2.1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240817102949</lastUpdated>
+  </versioning>
+</metadata>

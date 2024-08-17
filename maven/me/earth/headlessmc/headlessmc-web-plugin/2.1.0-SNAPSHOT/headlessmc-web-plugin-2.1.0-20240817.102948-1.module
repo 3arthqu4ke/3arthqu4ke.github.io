@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-web-plugin",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "size": 26062,
+          "sha512": "b262b8e9d6d397c5515a764cffc24350019dee45efcf65b06c1281868fde77b1a27ed5ded99feddf010b3fc3476e6104c898039d65ed7c1f7e7a1e6b6a46a7d0",
+          "sha256": "23c436556580b0b46fe559b028e0a7f6f5d1f8b43d6e1ff6fee7dd784e230069",
+          "sha1": "bd604a8b38ab9918663fe0e6b6b0a4c55938475b",
+          "md5": "f9425e898fa5e28ad559d04a9ba4d47e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "size": 26062,
+          "sha512": "b262b8e9d6d397c5515a764cffc24350019dee45efcf65b06c1281868fde77b1a27ed5ded99feddf010b3fc3476e6104c898039d65ed7c1f7e7a1e6b6a46a7d0",
+          "sha256": "23c436556580b0b46fe559b028e0a7f6f5d1f8b43d6e1ff6fee7dd784e230069",
+          "sha1": "bd604a8b38ab9918663fe0e6b6b0a4c55938475b",
+          "md5": "f9425e898fa5e28ad559d04a9ba4d47e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-sources.jar",
+          "size": 10916,
+          "sha512": "e5ea01390ba8e06aee991c828559f56606b062683928b40c74d2db3a0c74a49191a87e12b5e12f9584010be9f4624a101b208d0853ed49fdfb7f8c0e99c7f304",
+          "sha256": "61675505499b208a63f3cfa80401e4f11c175cedda5c52d1f05888e22224ec2b",
+          "sha1": "88b2232deafb115969804151ae82fd1318b594c1",
+          "md5": "c3a96c1ecf584ac089dc13f3f16e062a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 140257,
+          "sha512": "4c2d5310f2a62e293a5f5e918db656edec6e1fad8c807eb838f26da8070d559b28cfe14ebe7b667dd907ee25a625a22317b6ca958d3d3c4fb812f3880c3718f8",
+          "sha256": "e0bbf21bb4da6fe3f49dffb714ada267249197ef8d4bf828ee4c0dcfa3526149",
+          "sha1": "211c80a9f6a21bc8ac8f6b3f0b95ada94c0b8821",
+          "md5": "9c9ee42a7b593fb004bc7876d4a26d15"
+        }
+      ]
+    }
+  ]
+}
