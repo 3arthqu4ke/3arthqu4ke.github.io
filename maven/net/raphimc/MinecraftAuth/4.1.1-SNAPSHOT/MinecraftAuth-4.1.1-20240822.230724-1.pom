@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.raphimc</groupId>
+  <artifactId>MinecraftAuth</artifactId>
+  <version>4.1.1-SNAPSHOT</version>
+  <name>MinecraftAuth</name>
+  <description>Simple and easy to use Minecraft microsoft authentication library (Java and Bedrock)</description>
+  <url>https://github.com/RaphiMC/MinecraftAuth</url>
+  <licenses>
+    <license>
+      <name>LGPL-3.0 License</name>
+      <url>https://github.com/RaphiMC/MinecraftAuth/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>RK_01</id>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/RaphiMC/MinecraftAuth.git</connection>
+    <developerConnection>scm:git:ssh://github.com/RaphiMC/MinecraftAuth.git</developerConnection>
+    <url>https://github.com/RaphiMC/MinecraftAuth.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.lenni0451.commons</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-impl</artifactId>
+      <version>0.12.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-gson</artifactId>
+      <version>0.12.6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.16</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

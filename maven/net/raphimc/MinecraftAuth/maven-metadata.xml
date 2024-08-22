@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.raphimc</groupId>
+  <artifactId>MinecraftAuth</artifactId>
+  <versioning>
+    <latest>4.1.1-SNAPSHOT</latest>
+    <versions>
+      <version>4.1.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240822230724</lastUpdated>
+  </versioning>
+</metadata>

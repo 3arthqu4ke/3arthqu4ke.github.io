@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.raphimc",
+    "module": "MinecraftAuth",
+    "version": "4.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.lenni0451.commons",
+          "module": "httpclient",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-gson",
+          "version": {
+            "requires": "0.12.6"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "gson"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MinecraftAuth-4.1.1-SNAPSHOT.jar",
+          "url": "MinecraftAuth-4.1.1-SNAPSHOT.jar",
+          "size": 193589,
+          "sha512": "b252f7f1da3476e6e971e6e12a63a9bdbd7798b5a889f5738ac601539f6e64d9f58aa33e65179a3fdb8a7f9bdbf130b23623875ace6666fa13b8b58aec749dc6",
+          "sha256": "04e53bfb6b2461a5df97c64ad7c1c4ced1601a85388e2a7a964c89d1fa4254c4",
+          "sha1": "7f42cad9da7e215eb665efaa87f0fa9d85cc23c0",
+          "md5": "090a61da82e836223c35238bb510c7a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.lenni0451.commons",
+          "module": "httpclient",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-impl",
+          "version": {
+            "requires": "0.12.6"
+          }
+        },
+        {
+          "group": "io.jsonwebtoken",
+          "module": "jjwt-gson",
+          "version": {
+            "requires": "0.12.6"
+          },
+          "excludes": [
+            {
+              "group": "com.google.code.gson",
+              "module": "gson"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MinecraftAuth-4.1.1-SNAPSHOT.jar",
+          "url": "MinecraftAuth-4.1.1-SNAPSHOT.jar",
+          "size": 193589,
+          "sha512": "b252f7f1da3476e6e971e6e12a63a9bdbd7798b5a889f5738ac601539f6e64d9f58aa33e65179a3fdb8a7f9bdbf130b23623875ace6666fa13b8b58aec749dc6",
+          "sha256": "04e53bfb6b2461a5df97c64ad7c1c4ced1601a85388e2a7a964c89d1fa4254c4",
+          "sha1": "7f42cad9da7e215eb665efaa87f0fa9d85cc23c0",
+          "md5": "090a61da82e836223c35238bb510c7a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MinecraftAuth-4.1.1-SNAPSHOT-sources.jar",
+          "url": "MinecraftAuth-4.1.1-SNAPSHOT-sources.jar",
+          "size": 96765,
+          "sha512": "2fffd32947caa572ac24bfb5192f5536d1c33a3170bc1e008d843232905caad57d3bfa052d9871616212f7ab87876084a474a9396d38405c3e1f6269a944d0e3",
+          "sha256": "7a57869029354078f268229fd992484079bafd22a8c7b9aa38ae667e7eff608e",
+          "sha1": "ea4cae26fa7c7a2e0ed375a8d3b92a94f9b0f0d2",
+          "md5": "137a46f43fa048e3ef1283e339c572dd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MinecraftAuth-4.1.1-SNAPSHOT-javadoc.jar",
+          "url": "MinecraftAuth-4.1.1-SNAPSHOT-javadoc.jar",
+          "size": 390194,
+          "sha512": "ac9c99e406ca47128ea4c5c3d45e37bb6e431034799fa6a28e95ad26f95ed79be2e2b639295c2c2dc117201052c256af6113ca015b8132aa95d031052c605ffb",
+          "sha256": "a15cbe8d62bc75ebbd9980926d9beb500be323536854c79ca949d7811e96c714",
+          "sha1": "0dcf6aad48a872ae3b798510f3d57ba57b7e5645",
+          "md5": "44f3598d107b9750d3e23bb51d632a01"
+        }
+      ]
+    }
+  ]
+}
