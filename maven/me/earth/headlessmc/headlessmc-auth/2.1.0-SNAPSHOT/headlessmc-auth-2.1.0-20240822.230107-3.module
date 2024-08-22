@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-auth",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.raphimc",
+          "module": "MinecraftAuth",
+          "version": {
+            "requires": "4.1.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-auth-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-auth-2.1.0-SNAPSHOT-dev.jar",
+          "size": 14444,
+          "sha512": "9ff65332d6d09584a4a8849210533f07c6e0a854d75b621bcc6cce4c56b2db1508d422c6c78320477ee2ca9200ca1e30f0a51f9777f80f4e9b843897a39343cb",
+          "sha256": "e1ce2a3f6b8a1242b1420460dc687357551ad743615ae57a894e950f3b198423",
+          "sha1": "989922e0b40262ccf87bea1078e2db97492ae483",
+          "md5": "1c79c7621083afc6fd85ccd1d27b1cad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.raphimc",
+          "module": "MinecraftAuth",
+          "version": {
+            "requires": "4.1.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-auth-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-auth-2.1.0-SNAPSHOT-dev.jar",
+          "size": 14444,
+          "sha512": "9ff65332d6d09584a4a8849210533f07c6e0a854d75b621bcc6cce4c56b2db1508d422c6c78320477ee2ca9200ca1e30f0a51f9777f80f4e9b843897a39343cb",
+          "sha256": "e1ce2a3f6b8a1242b1420460dc687357551ad743615ae57a894e950f3b198423",
+          "sha1": "989922e0b40262ccf87bea1078e2db97492ae483",
+          "md5": "1c79c7621083afc6fd85ccd1d27b1cad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-auth-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-auth-2.1.0-SNAPSHOT-sources.jar",
+          "size": 4773,
+          "sha512": "103f76098c1cda2a8d35c1487ac4854b5972e0362a3bddba856a5ff1f1e8a4c003a35684645a12b02758378b4426b09ddc4858f256854250295c60b33f527ffd",
+          "sha256": "fb410e0bec6d5260bdbd15f06371de1c7f1f707fd667dfccea514dfe8a73d15d",
+          "sha1": "0961733a8584e119df7ed127459cd3805266a378",
+          "md5": "6ece5877de9aee707d7d96ed6417415c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-auth-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-auth-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 113633,
+          "sha512": "50e715c08eaddabd1462d8bb4ee83714970c61e1f97152f30a5cf47bdde854138d08733a660083d340d287a1919d8e0a1924f370317b1222e9abb9ed99b4f12d",
+          "sha256": "652f99b1340983b7b820cd970306981152c3a62384fc1acf164d5d1c8cc87c68",
+          "sha1": "5115fb9982b888f217957203452d5f47aca471da",
+          "md5": "1747a3e65c5dcd2959073236355850ab"
+        }
+      ]
+    }
+  ]
+}

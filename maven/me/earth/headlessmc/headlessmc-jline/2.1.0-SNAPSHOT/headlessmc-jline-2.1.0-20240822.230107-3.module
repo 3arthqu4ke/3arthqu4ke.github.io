@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-jline",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-jline-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-jline-2.1.0-SNAPSHOT-dev.jar",
+          "size": 7772,
+          "sha512": "eda8c62cff32d83a13c8848c48a01bbec8da5a3faab2c178b854cf98e00be0f91d72c47e7e7d5d1490b6ee1a5b454f2915621768dccc940c6194694314b55154",
+          "sha256": "8b3aab1f92c2ef455d756d87a3d2e912634950996ee34742abdb8a429e0dfc53",
+          "sha1": "71caaaaf4b5105717fef25e1eaa7b635a6ff667d",
+          "md5": "5512433652e6987facceea643ed1f695"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.14.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-jline-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-jline-2.1.0-SNAPSHOT-dev.jar",
+          "size": 7772,
+          "sha512": "eda8c62cff32d83a13c8848c48a01bbec8da5a3faab2c178b854cf98e00be0f91d72c47e7e7d5d1490b6ee1a5b454f2915621768dccc940c6194694314b55154",
+          "sha256": "8b3aab1f92c2ef455d756d87a3d2e912634950996ee34742abdb8a429e0dfc53",
+          "sha1": "71caaaaf4b5105717fef25e1eaa7b635a6ff667d",
+          "md5": "5512433652e6987facceea643ed1f695"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-jline-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-jline-2.1.0-SNAPSHOT-sources.jar",
+          "size": 3977,
+          "sha512": "8185d3ff18d8242feaef4562d400f2988f5a193c411ced17510bb27415ceb157bf40ba7926c99c530cadb7b00b2072554683f25e9da38fa115fbf87c38c4a4ae",
+          "sha256": "5cddc4059aa81425cc985a4233b1e45942b32bd14b113ba3c73f27a467166c24",
+          "sha1": "b52cd261952a8794f019483d36bb687103875d73",
+          "md5": "cebd97bffb12441bb9ece2c05b902108"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-jline-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-jline-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 107465,
+          "sha512": "ac26392d80acbc5ac1718bd86a90dfa4e9e2fd10e769f66e5336a427f09fd9dbc24c2623742200f42ec292e4e9621b4a7f001ff28bba451d2db1de0a0b363460",
+          "sha256": "b8065f9f84ba916128ceead84d6809e624657620905bb5536e3c0f0190a99d84",
+          "sha1": "b7b0603d1b12140a5381a0df6b53051463a57212",
+          "md5": "281e85b6830054e67241f41afc95db42"
+        }
+      ]
+    }
+  ]
+}

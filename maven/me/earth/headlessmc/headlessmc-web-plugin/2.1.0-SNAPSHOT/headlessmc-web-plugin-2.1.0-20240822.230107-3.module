@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-web-plugin",
+    "version": "2.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "size": 29069,
+          "sha512": "2affa0d3ff9e973f48acfa12795b750f934d150c26996241dbb03f47217074bcfb330091237184beb889a44ce69e04771fea71e932248368b86b0683a7822e42",
+          "sha256": "862e7761481465a88bd62d7071075ac4da7b53fb67f7ff73c9fa2d163793caf6",
+          "sha1": "952618870288af6f3b0795a3693859898241e784",
+          "md5": "bbcc21b980ad8e26a9ad6320794b5392"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.78.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "2.1.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-dev.jar",
+          "size": 29069,
+          "sha512": "2affa0d3ff9e973f48acfa12795b750f934d150c26996241dbb03f47217074bcfb330091237184beb889a44ce69e04771fea71e932248368b86b0683a7822e42",
+          "sha256": "862e7761481465a88bd62d7071075ac4da7b53fb67f7ff73c9fa2d163793caf6",
+          "sha1": "952618870288af6f3b0795a3693859898241e784",
+          "md5": "bbcc21b980ad8e26a9ad6320794b5392"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-sources.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-sources.jar",
+          "size": 11956,
+          "sha512": "ec2de7dd10abb81e1e087bd6ddf15f5f1d87f67750db95f29d0cb91fe6dd8e9d4539036e718ca725db43c2b014129412df98433ab2487b1270aac641adfd0bd5",
+          "sha256": "e77f6281847ff531a1405cd49b7bf22f53624af76ed68618efcda61f78c8160f",
+          "sha1": "edf2b26b6ea34a1cd09c849a47c5e40b58361811",
+          "md5": "f84912741ab36692c9bf71bdc8b26943"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.1.0-SNAPSHOT-javadoc.jar",
+          "url": "headlessmc-web-plugin-2.1.0-SNAPSHOT-javadoc.jar",
+          "size": 142026,
+          "sha512": "bca14e37b9c878aaa2f4b9546c09320628fd827ae4e53aea754c98c456b6391ac10262e13d6160dfe7649c70b91085111157b907928bb3e1883c1724bcf7b208",
+          "sha256": "9fe55ff533b73c3c4d5b642bcffea9f38b300ba61ed3d6e4968ffc61f42ce3c1",
+          "sha1": "59a23401ee4d5b1150573ce6610236b0cea5ab4a",
+          "md5": "b85a6f6036a46617b2ee9f5ac3d18431"
+        }
+      ]
+    }
+  ]
+}

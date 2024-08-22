@@ -3,39 +3,39 @@
   <groupId>me.earth.headlessmc</groupId>
   <artifactId>headlessmc-logging</artifactId>
   <versioning>
-    <lastUpdated>20240817104122</lastUpdated>
+    <lastUpdated>20240822230107</lastUpdated>
     <snapshot>
-      <timestamp>20240817.104122</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20240822.230107</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>2.1.0-20240817.104122-2</value>
-        <updated>20240817104122</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>dev</classifier>
         <extension>jar</extension>
-        <value>2.1.0-20240817.104122-2</value>
-        <updated>20240817104122</updated>
+        <value>2.1.0-20240822.230107-3</value>
+        <updated>20240822230107</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>2.1.0-20240817.104122-2</value>
-        <updated>20240817104122</updated>
+        <value>2.1.0-20240822.230107-3</value>
+        <updated>20240822230107</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>2.1.0-20240817.104122-2</value>
-        <updated>20240817104122</updated>
+        <value>2.1.0-20240822.230107-3</value>
+        <updated>20240822230107</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.1.0-20240822.230107-3</value>
+        <updated>20240822230107</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>2.1.0-20240817.104122-2</value>
-        <updated>20240817104122</updated>
+        <value>2.1.0-20240822.230107-3</value>
+        <updated>20240822230107</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
