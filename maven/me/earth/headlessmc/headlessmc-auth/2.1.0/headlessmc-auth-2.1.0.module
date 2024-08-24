@@ -44,10 +44,10 @@
           "name": "headlessmc-auth-2.1.0-dev.jar",
           "url": "headlessmc-auth-2.1.0-dev.jar",
           "size": 13939,
-          "sha512": "05ef849e8ef5767289a3fff1b65b34c14752fb1e9f5a01ea24269e0a89ee127ca2467802a606afe9169705e9bfa82b60b1c7015c92c3a2c83751c859f4a34fd5",
-          "sha256": "cf410225fff7c19e277e30ee1e701e47883f89cd91287a9244961d902e6ea43b",
-          "sha1": "a301a0b9cdb07863ca2372c15a06e37ef6f1b63a",
-          "md5": "4ca98471ddee4a3fe2a520080b0f727f"
+          "sha512": "873e8da23cb18f5d86d4dc8e40544446c677544c2dffc9f22ada3342a4501a9a2a1f3ef3c913df1570c096f328199fb6b6aecbfe8856e8f0221407faa0f064e1",
+          "sha256": "eb8302bfb2cc3db9fab5fdd18a9cb12bd330820d5d866e890fdf194941022a40",
+          "sha1": "12b798263de7d0c64352cbaa3fb6631259b886de",
+          "md5": "684b44c02547f7069439c790e6ad54e2"
         }
       ]
     },
@@ -81,10 +81,10 @@
           "name": "headlessmc-auth-2.1.0-dev.jar",
           "url": "headlessmc-auth-2.1.0-dev.jar",
           "size": 13939,
-          "sha512": "05ef849e8ef5767289a3fff1b65b34c14752fb1e9f5a01ea24269e0a89ee127ca2467802a606afe9169705e9bfa82b60b1c7015c92c3a2c83751c859f4a34fd5",
-          "sha256": "cf410225fff7c19e277e30ee1e701e47883f89cd91287a9244961d902e6ea43b",
-          "sha1": "a301a0b9cdb07863ca2372c15a06e37ef6f1b63a",
-          "md5": "4ca98471ddee4a3fe2a520080b0f727f"
+          "sha512": "873e8da23cb18f5d86d4dc8e40544446c677544c2dffc9f22ada3342a4501a9a2a1f3ef3c913df1570c096f328199fb6b6aecbfe8856e8f0221407faa0f064e1",
+          "sha256": "eb8302bfb2cc3db9fab5fdd18a9cb12bd330820d5d866e890fdf194941022a40",
+          "sha1": "12b798263de7d0c64352cbaa3fb6631259b886de",
+          "md5": "684b44c02547f7069439c790e6ad54e2"
         }
       ]
     },
@@ -101,10 +101,10 @@
           "name": "headlessmc-auth-2.1.0-sources.jar",
           "url": "headlessmc-auth-2.1.0-sources.jar",
           "size": 4781,
-          "sha512": "05bff106dc28b70b34c04ade15f55c3fc24a43c131bc8a86b2b7e1f6cd96aa4a7269575360435ce354b99565de2d3cb1f0ef50424be3abcada6b67374f67d3a5",
-          "sha256": "f129cf35a6bbbba0bc0be29d1d90bca8e4f637d1efd7e50dbd23f3872d5b347b",
-          "sha1": "1790b2b772f2f45275af331a5a5a7b55300a2309",
-          "md5": "91321b1d12dc02253712b4ac84c53648"
+          "sha512": "89951694e13cca6de48f7496db23184c686edbb50d71bf33b297332fdec1cea683a12a79eceeccb44b5bef21ba72f0d19e40e7b016fe7209ccb1fb1eba576c15",
+          "sha256": "84a4738d529bc65770443d0f7a7e5d2a62cfdf5fafa4d1b065e3f215fa167c53",
+          "sha1": "cd21e314dbb4493f66182679cdd146c88760bb11",
+          "md5": "9bbc0f5580b15a8dbc55527daff5befa"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "headlessmc-auth-2.1.0-javadoc.jar",
           "url": "headlessmc-auth-2.1.0-javadoc.jar",
           "size": 113643,
-          "sha512": "fe560b001c696aaa1f7b2f577ad04186be90963c5eeeb46044bd58f241187eae9c117a1012ce1180302dd5ac19881f6ef12fd6d0aa66f45f8f7a80caeabec235",
-          "sha256": "89dc8dd7e0e8c9df833409a3352d8de649981458c473dc35cb8e9dfe9e507f38",
-          "sha1": "bb826a3704bf43ce08c0f2b879f41f452e9856e6",
-          "md5": "e39fe6ccb06d0da89f2b98c17a84e4ab"
+          "sha512": "07339c323bbb08fe07d959c5b75cd30b5cdbe355fa54a06dfa76c92e2efdff06984d3c7e5cfb21de4af7eac35a21ec6c4624dd17a8f094ea0c02b1091fc031c0",
+          "sha256": "4ae140843311c4ad0f4354c0515fc3d09e6da196496c1d3c6aaebc1b427615ec",
+          "sha1": "267c189428304ffa862478a5b7277d3795775818",
+          "md5": "e91c9796c829da31e6358f61cba0a20d"
         }
       ]
     }

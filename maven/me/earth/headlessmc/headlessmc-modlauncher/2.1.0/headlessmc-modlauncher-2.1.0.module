@@ -28,10 +28,10 @@
           "name": "headlessmc-modlauncher-2.1.0-dev.jar",
           "url": "headlessmc-modlauncher-2.1.0-dev.jar",
           "size": 9947,
-          "sha512": "c330b8661f6e80015565fa33e3097a583824a54094a51f6f96b544a8c3c140a6d2813951c6928c69b1cafcff82311a3e657510dc199c21c40eba9e5c5680c246",
-          "sha256": "4b3fca59b44ebf669d5826afeb5dde3907104257b9354adc6d2a2cce47e45865",
-          "sha1": "d1a79bac6f37d2aee3d10479d9c4c3b0c11beb36",
-          "md5": "ca4951f92c8114b2ff1f8705c87db6f3"
+          "sha512": "7bedf520219319735a3d87a808021ce1c6ea00a0650846d91462ddd55213aa1f7398d21ff5c0d9c99c45018a42fc4d08ff1c78c50bfc54e9bab042733168cb01",
+          "sha256": "4ecb3e21bd7d62fe40191662cd9b616a2a3ffcf62d6b680cfbc2b7c45ca03bf7",
+          "sha1": "5ba8692f3fd3f8a1cd3a59b0b1a0f1b16dd2454e",
+          "md5": "f77fc984b5f93d6d56706c784b7e8a0e"
         }
       ]
     },
@@ -58,10 +58,10 @@
           "name": "headlessmc-modlauncher-2.1.0-dev.jar",
           "url": "headlessmc-modlauncher-2.1.0-dev.jar",
           "size": 9947,
-          "sha512": "c330b8661f6e80015565fa33e3097a583824a54094a51f6f96b544a8c3c140a6d2813951c6928c69b1cafcff82311a3e657510dc199c21c40eba9e5c5680c246",
-          "sha256": "4b3fca59b44ebf669d5826afeb5dde3907104257b9354adc6d2a2cce47e45865",
-          "sha1": "d1a79bac6f37d2aee3d10479d9c4c3b0c11beb36",
-          "md5": "ca4951f92c8114b2ff1f8705c87db6f3"
+          "sha512": "7bedf520219319735a3d87a808021ce1c6ea00a0650846d91462ddd55213aa1f7398d21ff5c0d9c99c45018a42fc4d08ff1c78c50bfc54e9bab042733168cb01",
+          "sha256": "4ecb3e21bd7d62fe40191662cd9b616a2a3ffcf62d6b680cfbc2b7c45ca03bf7",
+          "sha1": "5ba8692f3fd3f8a1cd3a59b0b1a0f1b16dd2454e",
+          "md5": "f77fc984b5f93d6d56706c784b7e8a0e"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "headlessmc-modlauncher-2.1.0-sources.jar",
           "url": "headlessmc-modlauncher-2.1.0-sources.jar",
           "size": 6356,
-          "sha512": "29f22ee9d761c6c2153f56a29b10d305b884a40f35dc438f8794184c8661b9f4e767c7a2cc46b240c50e71a5be0e76452cda23cefe2607318c2820fd01e25cc2",
-          "sha256": "b233e72774964f1fcec6e208b6c1c570f8d75b2286bb6d057fc1c6bb88342287",
-          "sha1": "0c5c499ee644a31eba6673b84f31a0334234e525",
-          "md5": "a56e9dec87a4696255b52390b35f9bc4"
+          "sha512": "1e8b6d8d335544726e3c998d356e7a9ed390494599dbd3550f66b75dc67f35ef205f0a2334bb336d74b6ddffa0d80decb3dfc9873b09e91b5166a33b5d5ed9cd",
+          "sha256": "f944129c8147b128337ff9eeca1bbee1070ca33c28a370b68ea028fade37829e",
+          "sha1": "b6510f86cab911623236bf72b557b96b7a3060f1",
+          "md5": "4ac428b223add33517a8c77c4d913cb1"
         }
       ]
     },
@@ -98,10 +98,10 @@
           "name": "headlessmc-modlauncher-2.1.0-javadoc.jar",
           "url": "headlessmc-modlauncher-2.1.0-javadoc.jar",
           "size": 102780,
-          "sha512": "6b1268a846fa98bf5531df952b1b01b944dbb511b75365e1586be4fd43f89a9cc0bc9a98fa1cec15715296d2fe294c29e6b1397e5fdae2d49d91b436c5866c5b",
-          "sha256": "ad4d06145c373b42b1bb88247e63695a0318138674c16f5927734ff1247d410c",
-          "sha1": "97547e8322976ce52c876003b6bf82142bade802",
-          "md5": "7be71a09c4d3a7aa51b428374a95d4d0"
+          "sha512": "50ce98fd2f6ebfd90c91ed899ea8fd11c26b61a1c665becf0ba4079ccbbbb4a16e6da6b64ad5ea545641dcd4a30a7ed5b5f821b4976add269ed8b83f880f8e22",
+          "sha256": "1dcf06e6745529970da703739328e39072e371046d8a2418caff4dd51cc352b7",
+          "sha1": "cfd401bd28e844e69ab084e6c6c89b1740100241",
+          "md5": "4845825568b03d9fcf44f54f88093b9b"
         }
       ]
     }

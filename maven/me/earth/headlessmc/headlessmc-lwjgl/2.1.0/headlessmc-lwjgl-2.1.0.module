@@ -44,10 +44,10 @@
           "name": "headlessmc-lwjgl-2.1.0-dev.jar",
           "url": "headlessmc-lwjgl-2.1.0-dev.jar",
           "size": 41672,
-          "sha512": "14c536184399328ec82e35b74efd33a627c0de8f92529dc461246d7b44bd28ce04f4d65cced792fe43e355d81f6d325c644cf0611e6a9ace7e873454f2499d22",
-          "sha256": "f4f4d93526b6ef868906e52e0cf4d098dd48e175405bfcebd6436965655046d4",
-          "sha1": "e2a7535ae752cbc13880cec450b93e5c97d9bfb8",
-          "md5": "92bc930627b9c1440d45407af3c8610f"
+          "sha512": "bb1c31b9e4127d147dd042616f74e62a2ea6d9b3da96aeef9382550b6194c16aaad61f0265e382dbf20b0b0ece9975d819ffa779c1e76d02a1913ea766f8040b",
+          "sha256": "b051c97a04ce3329e985619eb01e52f1ad5b36a2f9fc86c7d77af8761567af8b",
+          "sha1": "c065255870f873f7ce2c8e2fa26bc11b99c745df",
+          "md5": "fb0293c016c7d9a07ac1c073cb33fdec"
         }
       ]
     },
@@ -81,10 +81,10 @@
           "name": "headlessmc-lwjgl-2.1.0-dev.jar",
           "url": "headlessmc-lwjgl-2.1.0-dev.jar",
           "size": 41672,
-          "sha512": "14c536184399328ec82e35b74efd33a627c0de8f92529dc461246d7b44bd28ce04f4d65cced792fe43e355d81f6d325c644cf0611e6a9ace7e873454f2499d22",
-          "sha256": "f4f4d93526b6ef868906e52e0cf4d098dd48e175405bfcebd6436965655046d4",
-          "sha1": "e2a7535ae752cbc13880cec450b93e5c97d9bfb8",
-          "md5": "92bc930627b9c1440d45407af3c8610f"
+          "sha512": "bb1c31b9e4127d147dd042616f74e62a2ea6d9b3da96aeef9382550b6194c16aaad61f0265e382dbf20b0b0ece9975d819ffa779c1e76d02a1913ea766f8040b",
+          "sha256": "b051c97a04ce3329e985619eb01e52f1ad5b36a2f9fc86c7d77af8761567af8b",
+          "sha1": "c065255870f873f7ce2c8e2fa26bc11b99c745df",
+          "md5": "fb0293c016c7d9a07ac1c073cb33fdec"
         }
       ]
     },
@@ -101,10 +101,10 @@
           "name": "headlessmc-lwjgl-2.1.0-sources.jar",
           "url": "headlessmc-lwjgl-2.1.0-sources.jar",
           "size": 24195,
-          "sha512": "9eee2584588fcbf384f8f4ec4784fe5410f6e136ee1d1baf8ab848c9e1fc46fd3aa15503a8868758fb8f8f92601531f5d94f9595c6924bf8ece0c58f78bb51f8",
-          "sha256": "8dbc76baba907d46799d528353aec0fcba9c7ca09d6cf0622a4798a1d64ec63e",
-          "sha1": "d2f0a9f47ab1eb7773cf50448e121358253ba7be",
-          "md5": "35ac8a1611d704fa18f94e65f2bb7702"
+          "sha512": "8a7a51a846c6b97ab17232a7a43ef2c1b0807dfc25d17c0c31361f96f9975d6debf0d3b57a697d064fd887e61df1dbc84d86264dddc9225a7936ab8055ea687b",
+          "sha256": "fbcf2e09d0453d08d69f8b00f860fae6351ce55fe25d81817f983efc2343cc71",
+          "sha1": "f6982ac200e1e39f42cf133478546e9c351825b2",
+          "md5": "fdfe18066c737b95d02f20bd2a06cfdb"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "headlessmc-lwjgl-2.1.0-javadoc.jar",
           "url": "headlessmc-lwjgl-2.1.0-javadoc.jar",
           "size": 244564,
-          "sha512": "db1b98f819b9dd1af9e67447fc73372a525ada197ecf413b95a906089da5296ca89c86ff6f093822eb7a8bea0a22bf4c690ade2413a8498f3174aff55a72e312",
-          "sha256": "a9b81f8e718ffc040c75ba8fcfb7afa7b0d35320ed25b46c7564ac5ef83b75d0",
-          "sha1": "b9d7df3dd9c5182ba11a9e4bf35cc84c5c538ff4",
-          "md5": "7ea3d6f6bc32f593664778e7b719a9f5"
+          "sha512": "dc375ae8f70ec13e98feceeeeeee6d9d4d858b851bfa33b8ffb8624df5198689145f2ceace1150f8a26665eb9f89b2b60eadbe4561f03d73695d7d8a2269f746",
+          "sha256": "ff1c7dc871551a9d3c3ca97d8127971935ae94be22f0aa4b2a7cd19b83752532",
+          "sha1": "edb17170a9fbfbfa18baba6e3d39cce36f63eff8",
+          "md5": "8249aca9edcbd1882291b6c1254ae843"
         }
       ]
     }

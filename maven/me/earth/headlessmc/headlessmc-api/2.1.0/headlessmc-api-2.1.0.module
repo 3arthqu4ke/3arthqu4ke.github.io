@@ -37,10 +37,10 @@
           "name": "headlessmc-api-2.1.0-dev.jar",
           "url": "headlessmc-api-2.1.0-dev.jar",
           "size": 67360,
-          "sha512": "3e7e1e86f7b112c93d6e73dc22cb8f452d7288a621e3fc855902bdc2fa79d9443086a62ee899bc5f940bfa3c3817977592f96cc05fde8c8a4a043a3a18d28f80",
-          "sha256": "3825107b37d7beb5d8343554cd13699b86229ddd3f78d0869052f8bc44b29b1b",
-          "sha1": "5926fd0ee386c405dbed1227b6caaf877a0ba563",
-          "md5": "d097e78cedd207474e2595ccfec22c5a"
+          "sha512": "7977d0df32ca500346a4ab27b9487f5560539213db1593069a41abfbe4398a3c02a8de84e3d6eca8bff6682c711f200fd9bbca4f126c1a571b0a63c6d0fb0ec3",
+          "sha256": "cdd6457571f95a07f6bce82c20e11a15708117d5c9b804b151b698d08f4780fb",
+          "sha1": "13af26198014751648305d230e676aabeea33c2c",
+          "md5": "3193552268a1e7e195065ba232e86370"
         }
       ]
     },
@@ -74,10 +74,10 @@
           "name": "headlessmc-api-2.1.0-dev.jar",
           "url": "headlessmc-api-2.1.0-dev.jar",
           "size": 67360,
-          "sha512": "3e7e1e86f7b112c93d6e73dc22cb8f452d7288a621e3fc855902bdc2fa79d9443086a62ee899bc5f940bfa3c3817977592f96cc05fde8c8a4a043a3a18d28f80",
-          "sha256": "3825107b37d7beb5d8343554cd13699b86229ddd3f78d0869052f8bc44b29b1b",
-          "sha1": "5926fd0ee386c405dbed1227b6caaf877a0ba563",
-          "md5": "d097e78cedd207474e2595ccfec22c5a"
+          "sha512": "7977d0df32ca500346a4ab27b9487f5560539213db1593069a41abfbe4398a3c02a8de84e3d6eca8bff6682c711f200fd9bbca4f126c1a571b0a63c6d0fb0ec3",
+          "sha256": "cdd6457571f95a07f6bce82c20e11a15708117d5c9b804b151b698d08f4780fb",
+          "sha1": "13af26198014751648305d230e676aabeea33c2c",
+          "md5": "3193552268a1e7e195065ba232e86370"
         }
       ]
     },
@@ -94,10 +94,10 @@
           "name": "headlessmc-api-2.1.0-sources.jar",
           "url": "headlessmc-api-2.1.0-sources.jar",
           "size": 40868,
-          "sha512": "e3423f5b694a7841317565812b63b944a620389df22cc3f7b5d42800ef6b1407b13ee851b65693d1aab3429b59e2dc75e7db94dbb55fd520563d6d9a5b1db21a",
-          "sha256": "9779e2cbdbb118ddc7d34b4d9d75ef923047baad099c6f22be4e5b79e63da0ab",
-          "sha1": "7baef4df445c7fbe7890b5045aa578688f389f97",
-          "md5": "67a59d23a7eb22346721540831aa7045"
+          "sha512": "0f195aa2c47609ea73475ef90d1c340d66fcd4f37dec7aa67304691a4788307b66ef3835eb5581bc5a981ded44f1b5633eb881cdd2853e2d2ff20e2412c64448",
+          "sha256": "2b1442c13765c7a5bfddcc059add829b33cfdad85d0cb44a8da7a21a758f2d88",
+          "sha1": "845f6e6c8d9cccd4770db6c272903ab8ebfedca0",
+          "md5": "55724bdaca431963a8b004ad0fb327ab"
         }
       ]
     },
@@ -114,10 +114,10 @@
           "name": "headlessmc-api-2.1.0-javadoc.jar",
           "url": "headlessmc-api-2.1.0-javadoc.jar",
           "size": 366310,
-          "sha512": "01729045371cb1289fecedc49ffdc881b478d21a8320e49ab2fc06a1bf779b44cc7296292616a7ba577b1ab6c3ba8202cc58247f3aff2eeeeaa58437f3254ebd",
-          "sha256": "af97ff0f289d55cc5d940f0a4ec32e80b258ae717fcd6a24ff5eda090fd4e98d",
-          "sha1": "b975ad345c83929d2fc767e17e7434c04216b5ae",
-          "md5": "277ef96439d60960bfae5c0f8ff24239"
+          "sha512": "8f65eac5ca7fee1b46dee8007d96863a50088ffa30d0689f73644b851d52ef2414e972be677a3a97a0023b42002d73e2642491cba257280cdf60b90f07c505dd",
+          "sha256": "5754d9c61d17b3f9a8dc8089c2e5d4511a597c1f98d12a2e3cf1f8f547eb905d",
+          "sha1": "4507a8dfd724a4f9b7df6d1ac9b50c20956e1f4b",
+          "md5": "8c75781bd47a88dcbc2c689d5e782cbd"
         }
       ]
     },
@@ -144,10 +144,10 @@
           "name": "headlessmc-api-2.1.0-test-fixtures.jar",
           "url": "headlessmc-api-2.1.0-test-fixtures.jar",
           "size": 5828,
-          "sha512": "01edd56ebd2d11d5cdc0ef4b0c352ca0708d32e535e9a383b6499074f5f50bcc8f5a8240b95037bb6799b6c12f60e81ddb9ca829308bc6e01f603f2d52a80b46",
-          "sha256": "33130e6b660a80ec45439d51deda03a4dbbc0c5637c1f8f596dcf4d24e4e8390",
-          "sha1": "2e42ca36c7b6318c92b46168de7e50960a717e4f",
-          "md5": "f43fedd6bfb9d8cff641be733455edbb"
+          "sha512": "d1ef891cd54e316429817ea0e3382c8eb6e3635c07488180df28b1f2321a56dd8f08bdcaa638144dbd013cb84fca72762222454b8feda3cf6c7f8ae74b0d9fc9",
+          "sha256": "559a151939b64b5c0970e67ce998bb965efca9122b1b4527450a18ba5bb13722",
+          "sha1": "b621533673f2b522cd755450799f6f8413757ef8",
+          "md5": "9762595f43df5a27441419fdb73b006b"
         }
       ],
       "capabilities": [
@@ -195,10 +195,10 @@
           "name": "headlessmc-api-2.1.0-test-fixtures.jar",
           "url": "headlessmc-api-2.1.0-test-fixtures.jar",
           "size": 5828,
-          "sha512": "01edd56ebd2d11d5cdc0ef4b0c352ca0708d32e535e9a383b6499074f5f50bcc8f5a8240b95037bb6799b6c12f60e81ddb9ca829308bc6e01f603f2d52a80b46",
-          "sha256": "33130e6b660a80ec45439d51deda03a4dbbc0c5637c1f8f596dcf4d24e4e8390",
-          "sha1": "2e42ca36c7b6318c92b46168de7e50960a717e4f",
-          "md5": "f43fedd6bfb9d8cff641be733455edbb"
+          "sha512": "d1ef891cd54e316429817ea0e3382c8eb6e3635c07488180df28b1f2321a56dd8f08bdcaa638144dbd013cb84fca72762222454b8feda3cf6c7f8ae74b0d9fc9",
+          "sha256": "559a151939b64b5c0970e67ce998bb965efca9122b1b4527450a18ba5bb13722",
+          "sha1": "b621533673f2b522cd755450799f6f8413757ef8",
+          "md5": "9762595f43df5a27441419fdb73b006b"
         }
       ],
       "capabilities": [

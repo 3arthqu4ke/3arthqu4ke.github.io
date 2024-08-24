@@ -64,11 +64,11 @@
         {
           "name": "headlessmc-launcher-2.1.0-dev.jar",
           "url": "headlessmc-launcher-2.1.0-dev.jar",
-          "size": 3642845,
-          "sha512": "228117301920b87669354d8a0a7b3ad95c627a30f8a0c20469e50e7b19e474d53b825b5edbda02a64ce6bc11da802e3fb4716abe0fe2157d2f3c45027ea41a29",
-          "sha256": "c5e153c939d76aaf093dc883aee1512da073e40ad9c6f1cac86d74daebf4f6f3",
-          "sha1": "415f56f18eba8a817b460139b82b480121e074b8",
-          "md5": "d66592dfbf76076ab2617bd4277d918c"
+          "size": 3821074,
+          "sha512": "97c60cc1968b155180c3e331a9d9bc9a6d11c66ac2c213133b5ea4dff1b937cbeea8e9159ecd72eb37050ed09fe8b5f6c2e28751d028254007ad39b3ee3d3e04",
+          "sha256": "375cd443971ce17ef5164c805b4852dc7e8ae5a6658256de16bcd4681d92e460",
+          "sha1": "4acddd079bc24c499ac42f497c3a3207a02de665",
+          "md5": "455e2268e7c9d03b069b68e016becc90"
         }
       ]
     },
@@ -146,6 +146,13 @@
           }
         },
         {
+          "group": "org.semver4j",
+          "module": "semver4j",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
           "group": "me.earth.headlessmc",
           "module": "headlessmc-jline",
           "version": {
@@ -157,11 +164,11 @@
         {
           "name": "headlessmc-launcher-2.1.0-dev.jar",
           "url": "headlessmc-launcher-2.1.0-dev.jar",
-          "size": 3642845,
-          "sha512": "228117301920b87669354d8a0a7b3ad95c627a30f8a0c20469e50e7b19e474d53b825b5edbda02a64ce6bc11da802e3fb4716abe0fe2157d2f3c45027ea41a29",
-          "sha256": "c5e153c939d76aaf093dc883aee1512da073e40ad9c6f1cac86d74daebf4f6f3",
-          "sha1": "415f56f18eba8a817b460139b82b480121e074b8",
-          "md5": "d66592dfbf76076ab2617bd4277d918c"
+          "size": 3821074,
+          "sha512": "97c60cc1968b155180c3e331a9d9bc9a6d11c66ac2c213133b5ea4dff1b937cbeea8e9159ecd72eb37050ed09fe8b5f6c2e28751d028254007ad39b3ee3d3e04",
+          "sha256": "375cd443971ce17ef5164c805b4852dc7e8ae5a6658256de16bcd4681d92e460",
+          "sha1": "4acddd079bc24c499ac42f497c3a3207a02de665",
+          "md5": "455e2268e7c9d03b069b68e016becc90"
         }
       ]
     },
@@ -177,11 +184,11 @@
         {
           "name": "headlessmc-launcher-2.1.0-sources.jar",
           "url": "headlessmc-launcher-2.1.0-sources.jar",
-          "size": 138861,
-          "sha512": "5fdbe99a8496e97e20476194d8c3713148b5cd4d9c511af3e37f06b587520655c36b608e55b19fb5abfcb16869d19f52a14214fe70aa1597dedee4be7198417f",
-          "sha256": "07f1eabbf3b049c443cacc9fc3dcf5ed51c1bc1ac90f297cd7f726e1f6f1aa6e",
-          "sha1": "0b2654e4b16046081a31ccef0587d9ac4aca6e47",
-          "md5": "eb356b1ce6da92b3988941061ceae90f"
+          "size": 139297,
+          "sha512": "0ae44fe10171b53239886108f93483f3854ff5d8893bc94580d39619fab192eb0b474f318ff91b17300bab4ad4af97a66944d56b7c4124d08c5c13a2a7576d5e",
+          "sha256": "1b7e5608e21bb39ee9c1f3096fdf3f24e9204ddcfebd0900cdabbc64f04a9c28",
+          "sha1": "5ea2648bd41441faafb333a3c6554c74624fca8e",
+          "md5": "0f8ce5567d9fbe0edadb45dfc4e24606"
         }
       ]
     },
@@ -197,11 +204,11 @@
         {
           "name": "headlessmc-launcher-2.1.0-javadoc.jar",
           "url": "headlessmc-launcher-2.1.0-javadoc.jar",
-          "size": 874800,
-          "sha512": "eddd25eca6dab773e14e63017b989cf541784baaa3d72ccb7543bdc542ed1a2bd2ae246e573601d68dc0f47ae40937a39ce6072032940c482767b52314ac8637",
-          "sha256": "1a362468ca53e012b5d8aa0a0526c50c1256466aca72a89c21363b68d401959f",
-          "sha1": "4fe72841c725d182784ddfa05193033376aeaa54",
-          "md5": "a57a35e1a61b799762704cfa4014c39c"
+          "size": 875774,
+          "sha512": "9a1e77e98aa0a2e76b6e19a9441e624c7f04069758d415c1a2dbc1ec674cc4c7729323a4e9738e7bb2cfba5ff949a4bff0f4f7a9280e06d3e29d4cb76284eea5",
+          "sha256": "68b927597041fc5a3b0a13ce8568989c3f0eb76d13b431cc3703d953d727ba18",
+          "sha1": "057791a20777f8c82aa2b06e4c97e6af97a026b1",
+          "md5": "4f3efe6de7906740a0344f02d440986c"
         }
       ]
     }

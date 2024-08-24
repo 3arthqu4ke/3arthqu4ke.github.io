@@ -28,10 +28,10 @@
           "name": "headlessmc-launcher-jfx-2.1.0-dev.jar",
           "url": "headlessmc-launcher-jfx-2.1.0-dev.jar",
           "size": 469,
-          "sha512": "ddc41eda63baeacef667e7dcdb065d08edca75844c9ba681e11ca349ad82e89bac4acfc98f15e7a20b9b6b9d989cfb050b183b848cb971b99fd1f038e03ed305",
-          "sha256": "7d2ed6a2318ef2f7232028ee798c8363e06035ec92166205f8f190a57cbc8855",
-          "sha1": "9135964b71ce4341dfaebddadfc4561abd6b88ae",
-          "md5": "646501dce30a1858d8a05ac38bebb8b5"
+          "sha512": "7b2ba646d9c283afac3d3658d3a0035986405514adb96b5928e887f65c4f7bed7f0f0a68177aac8ca0fc3570a540e30a3bc3279e98db3c92ba8141345b07a663",
+          "sha256": "49851a8efd9d3a3d09005b00d3504d2b308bc1be2a0f7b861be5fd4912cb6723",
+          "sha1": "3751921c2a8205d5c5c7a3139365454a2b03fc43",
+          "md5": "2fa4b522e9a54d08d59011e8a2043240"
         }
       ]
     },
@@ -373,10 +373,10 @@
           "name": "headlessmc-launcher-jfx-2.1.0-dev.jar",
           "url": "headlessmc-launcher-jfx-2.1.0-dev.jar",
           "size": 469,
-          "sha512": "ddc41eda63baeacef667e7dcdb065d08edca75844c9ba681e11ca349ad82e89bac4acfc98f15e7a20b9b6b9d989cfb050b183b848cb971b99fd1f038e03ed305",
-          "sha256": "7d2ed6a2318ef2f7232028ee798c8363e06035ec92166205f8f190a57cbc8855",
-          "sha1": "9135964b71ce4341dfaebddadfc4561abd6b88ae",
-          "md5": "646501dce30a1858d8a05ac38bebb8b5"
+          "sha512": "7b2ba646d9c283afac3d3658d3a0035986405514adb96b5928e887f65c4f7bed7f0f0a68177aac8ca0fc3570a540e30a3bc3279e98db3c92ba8141345b07a663",
+          "sha256": "49851a8efd9d3a3d09005b00d3504d2b308bc1be2a0f7b861be5fd4912cb6723",
+          "sha1": "3751921c2a8205d5c5c7a3139365454a2b03fc43",
+          "md5": "2fa4b522e9a54d08d59011e8a2043240"
         }
       ]
     },
@@ -393,10 +393,10 @@
           "name": "headlessmc-launcher-jfx-2.1.0-sources.jar",
           "url": "headlessmc-launcher-jfx-2.1.0-sources.jar",
           "size": 261,
-          "sha512": "de6a2987d3e728319fc37aa9e9e74bdc71c4b59b7bdbe18d6583327cad57a4846a18a030fbcf98d6bc42f92cff2945e5e2fdbc3829ee3a31103a3ed99d886661",
-          "sha256": "86979b374285bc1ea3cfab65519bf4c65a6d9a510c792488b38978ddf5e4222c",
-          "sha1": "a2da90a83a91a84a46eedee91770c0a930675c15",
-          "md5": "e77d93036d8b6bb68070f35fbd15d770"
+          "sha512": "c1e531482ad486ee0c476d148d927b8eb1eab1d7aa90ed478e57cd7168dceb60ba2665d02410882045187a7fbfee9a2cc4577d19cea8bcd026f9f3cbe40a8535",
+          "sha256": "8ede3be4d269480139726f5b8ac96c5896e6b4915dfccf567ec6903e2f2cfcfa",
+          "sha1": "f1d3dd141784258a7c6e6b58d0f1df34a6df9d67",
+          "md5": "d229e51b54397bb8fc953dd1563e5ed7"
         }
       ]
     },
@@ -413,10 +413,10 @@
           "name": "headlessmc-launcher-jfx-2.1.0-javadoc.jar",
           "url": "headlessmc-launcher-jfx-2.1.0-javadoc.jar",
           "size": 261,
-          "sha512": "408e4ba1d9c72b375e3e8cc280716e6b4da6ebd97a19e79a82cd21c032ce92156919c21f03393e249c4d64956c67de243d17c3f1b57f0a9df7709b3ac931a9bd",
-          "sha256": "fe5fc5d59ff570eca7f652e770c6b2ded4dca731c6d090ad64c35446fbd06102",
-          "sha1": "575acf514488df1089d0bea7a84a5fbfee8a4b94",
-          "md5": "24c49740478041aad121578d0b92f086"
+          "sha512": "d57438f7a46e3bf62da72a6eefc6a5db6fa1990a87713840a0ee077e16bd3b2829cc6425f2582745218ac365ac5bc73371349e22a213973c7d07af11e367cf3b",
+          "sha256": "c32547e5fc2c2796c0513b382629702217fef09c771000f27d86eeea06b66bd3",
+          "sha1": "293d3040d794b5b84bfabf030f2e0a69edc63dc2",
+          "md5": "4718fde19d7e54be51fb5eb03d12b286"
         }
       ]
     }

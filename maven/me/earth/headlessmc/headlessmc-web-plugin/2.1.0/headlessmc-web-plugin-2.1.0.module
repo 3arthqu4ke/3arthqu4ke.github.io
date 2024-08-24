@@ -37,10 +37,10 @@
           "name": "headlessmc-web-plugin-2.1.0-dev.jar",
           "url": "headlessmc-web-plugin-2.1.0-dev.jar",
           "size": 29082,
-          "sha512": "851cf51dff06a054128973873fdd34ba6414885ea0f631b6f7e180ffcb684e7cdf010ef931ab4340fbd2886c28a961102781d3be3fdc4e6fc29886801689f760",
-          "sha256": "f8e430995a1392c6c2f60e3b0368f2afa797b8df91fed7fa9d513ea14d054b8a",
-          "sha1": "e39b235ed0bec8688745585a45f7d5c0aae5c339",
-          "md5": "e419bbf0896a040cd58d2f9d83a30218"
+          "sha512": "0ccf70d79133400348f7292e1d5a16cadd7fb153b953c4fd0694d6bf54268e784d396506b157258f368c31e0bf73472ef73cf5be0c0a98a418297df4bad527d3",
+          "sha256": "4c8c51a57997a96728e4b8db16e4006eddc292961738ef34f3bc90a2ca357148",
+          "sha1": "84f92e6d443acfb47c9392076a2fd4b7d2708d4c",
+          "md5": "4db1875f68f486ba2f3515bcf8f28b0d"
         }
       ]
     },
@@ -87,10 +87,10 @@
           "name": "headlessmc-web-plugin-2.1.0-dev.jar",
           "url": "headlessmc-web-plugin-2.1.0-dev.jar",
           "size": 29082,
-          "sha512": "851cf51dff06a054128973873fdd34ba6414885ea0f631b6f7e180ffcb684e7cdf010ef931ab4340fbd2886c28a961102781d3be3fdc4e6fc29886801689f760",
-          "sha256": "f8e430995a1392c6c2f60e3b0368f2afa797b8df91fed7fa9d513ea14d054b8a",
-          "sha1": "e39b235ed0bec8688745585a45f7d5c0aae5c339",
-          "md5": "e419bbf0896a040cd58d2f9d83a30218"
+          "sha512": "0ccf70d79133400348f7292e1d5a16cadd7fb153b953c4fd0694d6bf54268e784d396506b157258f368c31e0bf73472ef73cf5be0c0a98a418297df4bad527d3",
+          "sha256": "4c8c51a57997a96728e4b8db16e4006eddc292961738ef34f3bc90a2ca357148",
+          "sha1": "84f92e6d443acfb47c9392076a2fd4b7d2708d4c",
+          "md5": "4db1875f68f486ba2f3515bcf8f28b0d"
         }
       ]
     },
@@ -107,10 +107,10 @@
           "name": "headlessmc-web-plugin-2.1.0-sources.jar",
           "url": "headlessmc-web-plugin-2.1.0-sources.jar",
           "size": 11937,
-          "sha512": "6c121559c7ff1446d26687083bea1bd7b0ccf245a7bd8a083eee322167b416f81dfb7ec8b15887e4b45b2b287d251560d3272bc469ab20155695223b313d8325",
-          "sha256": "ce4f07c6838312fb13f6c21efbfdf8560d2c6daaef25ed7c2f5f3047846e5d22",
-          "sha1": "1b541080e96ee6306cbb616d0f9eeb1ec32fd55f",
-          "md5": "163cf5431a507f87f647a009dfc3d220"
+          "sha512": "639a4bec04dbfc63169663f9b1bdd64120d452551eab5c84ce7fb6f071c92b67bce38c526272e43becb6107fa6eebbb43a93f100c9e5215e9dc4b37e4e2f6c6f",
+          "sha256": "9d7a9d646ff0edfd80656ea83eab9371c438fc9f360f17c11b2678d3078aa192",
+          "sha1": "92a070435ba71b905612f6c639b551bc90d8eeed",
+          "md5": "e3692fe864ca4123d70bf44ebab4b1d1"
         }
       ]
     },
@@ -127,10 +127,10 @@
           "name": "headlessmc-web-plugin-2.1.0-javadoc.jar",
           "url": "headlessmc-web-plugin-2.1.0-javadoc.jar",
           "size": 141960,
-          "sha512": "4124015980b08d8ef7fa0d3e8c902d1967c53ed7c9689f9cefa4492b3d7b74259a8d311c0a3eeaedec4c0a2ba735161051da57824a78e144ae72949e349ee039",
-          "sha256": "321f542f5d79176fa262697c0feb352c81efadd8035af38c30db6a3c5f0bd4a9",
-          "sha1": "f60a422a6c1fe08fc5c88bbda7fd20be85fc0613",
-          "md5": "5cc63dff95d26a329319928a94f1618f"
+          "sha512": "95ab42626245a6d3bf1bb548109788e32342d266bbe0a19b33d4976256fb97458a3cdc1e23027db7ef218e8cdc1cf5cdfbdb1f5d3150cf2b54ff1ef7321aaf3c",
+          "sha256": "d71a8930fd1ebae042d0f2024b367fc3003d59e7beb307c4ca44328114f3fad1",
+          "sha1": "2f60d0c862d0a5c614713406155912a6fd407892",
+          "md5": "6fa2d56d404a989dca5420514930f6f3"
         }
       ]
     }
