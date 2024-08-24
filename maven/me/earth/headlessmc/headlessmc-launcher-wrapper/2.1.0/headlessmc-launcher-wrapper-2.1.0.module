@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-wrapper",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-dev.jar",
+          "size": 8404728,
+          "sha512": "0e7c3ae92a485c936df20a9a5d1ece9b5eede993256d1b79eb005e16d42cff3209beb942d362ab7c0b8f0c9f7840012ea470b6ef393e7dc07597369a769edbd4",
+          "sha256": "feb6931fa430c20cf30e5a69682fd2e567039e1288407e27050f6839435ac4f1",
+          "sha1": "3541a1567dbbe378722a758c5765d7a82117877c",
+          "md5": "29a8453364c0f91b8e0e47c513874fa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-modlauncher",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-dev.jar",
+          "size": 8404728,
+          "sha512": "0e7c3ae92a485c936df20a9a5d1ece9b5eede993256d1b79eb005e16d42cff3209beb942d362ab7c0b8f0c9f7840012ea470b6ef393e7dc07597369a769edbd4",
+          "sha256": "feb6931fa430c20cf30e5a69682fd2e567039e1288407e27050f6839435ac4f1",
+          "sha1": "3541a1567dbbe378722a758c5765d7a82117877c",
+          "md5": "29a8453364c0f91b8e0e47c513874fa4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-sources.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-sources.jar",
+          "size": 6177,
+          "sha512": "614d7a875880344638d3236db23d34aeab4810c036fd70035e9e631d4ce6a61a623ec6ae9b45c2044fe857cceb83ab7cc079076fa0007e9cd7d3df86ccd41d0a",
+          "sha256": "35ae470ceb97690849dfaa15c6a6dfc7db09efb97bc1e16842a631cb4518c962",
+          "sha1": "eb982ad15f75eb7c8b4390f7f9843bd140e0eecc",
+          "md5": "d8d628ae64b68fc43099d88d18319ab7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.1.0-javadoc.jar",
+          "url": "headlessmc-launcher-wrapper-2.1.0-javadoc.jar",
+          "size": 129676,
+          "sha512": "33b422c0c7b2af784466f40ebc419733792f1e7ce4579e703b3834b3209363f1f4e69464461cdd73a0fe122f2200680b19680bc9774d3ad92d8430ee8b6b10f6",
+          "sha256": "591509bfe2885bb8f4a033e943218ba29ebf72302e37726993e1bfd8c93b6429",
+          "sha1": "3328118f3d5ca8cf7f1728ac555530c7c12d9e3f",
+          "md5": "f535fcdc2417fb701583741378790c7a"
+        }
+      ]
+    }
+  ]
+}
