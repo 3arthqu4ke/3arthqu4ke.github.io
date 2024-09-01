@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.headlesshq",
+    "module": "headlessmc-gradle-plugin",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-gradle-plugin-0.4.0.jar",
+          "url": "headlessmc-gradle-plugin-0.4.0.jar",
+          "size": 31289,
+          "sha512": "23f1305819f9d638700cb31c86445c6aa6faf11992cff9976a3df95349086aa0962541e2cb3a42d6c52740eac6383b543d5736985c3840a56536f30f524202dc",
+          "sha256": "736ef0fb55560b3b067b5683a346bf701a3109e04284a431045100281f020d62",
+          "sha1": "38fd0127d193e00281218d83ed474892b2c79ec9",
+          "md5": "4bfd0aafe18bc8ea99cb738cc42d21e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-jline",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-gradle-plugin-0.4.0.jar",
+          "url": "headlessmc-gradle-plugin-0.4.0.jar",
+          "size": 31289,
+          "sha512": "23f1305819f9d638700cb31c86445c6aa6faf11992cff9976a3df95349086aa0962541e2cb3a42d6c52740eac6383b543d5736985c3840a56536f30f524202dc",
+          "sha256": "736ef0fb55560b3b067b5683a346bf701a3109e04284a431045100281f020d62",
+          "sha1": "38fd0127d193e00281218d83ed474892b2c79ec9",
+          "md5": "4bfd0aafe18bc8ea99cb738cc42d21e0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-gradle-plugin-0.4.0-sources.jar",
+          "url": "headlessmc-gradle-plugin-0.4.0-sources.jar",
+          "size": 8848,
+          "sha512": "a4f528b19af9af88e9c8f3d695772f1b665b872c97e503f32ab768c44188d65499cac0c02882d85ff49705892aa1fd9efea0062fa9472d63303f9452f9b20ca5",
+          "sha256": "f422c982e9bee60a568b5748c4b24c64e3cfeca920f982513e22b92a6b616e73",
+          "sha1": "3473caaef0b9fc4e0753851cdbdb2b7d74a9845e",
+          "md5": "3758f176cd37ca9c6ab668cd8dbbc44e"
+        }
+      ]
+    }
+  ]
+}
