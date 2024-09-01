@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-api",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-logging",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-dev.jar",
+          "url": "headlessmc-api-2.2.0-dev.jar",
+          "size": 67460,
+          "sha512": "eed79c60822180c05df6a66e0c9d8a8e0deac475810e767ec659211356eb3fd738de52b81215f39ed3cf1898573c18b829828fc6706e765d17bb1e4df8e9d4c7",
+          "sha256": "19c7ed10b648442f217b33a5a41fba56fc56f03b4b259771c4ad17b5f43fe6ec",
+          "sha1": "2386e6b1ff87df15579113d56608acc5d46c0c1f",
+          "md5": "487575cb9990e864af8fb95e9680cdd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-logging",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-dev.jar",
+          "url": "headlessmc-api-2.2.0-dev.jar",
+          "size": 67460,
+          "sha512": "eed79c60822180c05df6a66e0c9d8a8e0deac475810e767ec659211356eb3fd738de52b81215f39ed3cf1898573c18b829828fc6706e765d17bb1e4df8e9d4c7",
+          "sha256": "19c7ed10b648442f217b33a5a41fba56fc56f03b4b259771c4ad17b5f43fe6ec",
+          "sha1": "2386e6b1ff87df15579113d56608acc5d46c0c1f",
+          "md5": "487575cb9990e864af8fb95e9680cdd0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-sources.jar",
+          "url": "headlessmc-api-2.2.0-sources.jar",
+          "size": 40888,
+          "sha512": "bb81075e5aac96e17a301d32be38fa6a2e656133a53d4d33faa8af0a48823e9178ec69d91bc8256aab72a725305511169b430c3a8985f89763cd872c1247b364",
+          "sha256": "bc691eb3d131ee245d9110ec23be8955b25172ad1d32ffb237570f1e7dd86e85",
+          "sha1": "c8f9dde55549d32321338bbb739a4bbfbcf93aeb",
+          "md5": "febb5736b2dcb5c3724fc5facd399531"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-javadoc.jar",
+          "url": "headlessmc-api-2.2.0-javadoc.jar",
+          "size": 366444,
+          "sha512": "2548761135c08f98baacf5c3df8244dffb8d8760876546315085777d56e716d7a5c17d485a8acb37b90386834cf7e5b4a60ce8d691a70164bf21189cb3ef8a0c",
+          "sha256": "d2bb31f5b3d8d24e43f6adc5d1bbf9d2d0c0ad9f459907d3242d8a607add6cf8",
+          "sha1": "520e71f3d3ec1f2521d4be9117c578014c0e85f3",
+          "md5": "a7aa3c3327f5e33ffb39aae89447c403"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-test-fixtures.jar",
+          "url": "headlessmc-api-2.2.0-test-fixtures.jar",
+          "size": 5828,
+          "sha512": "35e5dd73695e71bbbbebdea1cf361bf094e9f0380a92e1d1f37343886cbe6fb624e9f55d83de5e2c7b9f51e61f1df3142be35ea257b88c356759f84897567ab1",
+          "sha256": "da8bb85eb57912859afbb3222815cdd3be19104f1c946ced4faaf91c4dd2ae73",
+          "sha1": "be78eec1a714dbd815b6f643addd79aa953a220a",
+          "md5": "61cc0d60ccddec507b7af0b23482fabb"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "me.earth.headlessmc",
+          "name": "headlessmc-api-test-fixtures",
+          "version": "2.2.0"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-api",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-engine",
+          "version": {
+            "requires": "5.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-api-2.2.0-test-fixtures.jar",
+          "url": "headlessmc-api-2.2.0-test-fixtures.jar",
+          "size": 5828,
+          "sha512": "35e5dd73695e71bbbbebdea1cf361bf094e9f0380a92e1d1f37343886cbe6fb624e9f55d83de5e2c7b9f51e61f1df3142be35ea257b88c356759f84897567ab1",
+          "sha256": "da8bb85eb57912859afbb3222815cdd3be19104f1c946ced4faaf91c4dd2ae73",
+          "sha1": "be78eec1a714dbd815b6f643addd79aa953a220a",
+          "md5": "61cc0d60ccddec507b7af0b23482fabb"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "me.earth.headlessmc",
+          "name": "headlessmc-api-test-fixtures",
+          "version": "2.2.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-jfx",
+    "version": "2.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-jfx-2.2.0-dev.jar",
+          "url": "headlessmc-launcher-jfx-2.2.0-dev.jar",
+          "size": 469,
+          "sha512": "cfe0f4923cb74c5fc79d8380d56763da2e7bf0f5287c0a10fcb15be86b866f673b928d8e97181fa10270de9e3b9bee18fc49bd66e3aca745c585c7c71d43577e",
+          "sha256": "e4c90715f318a48be7a74e0f19ef037e130530a1a1c66e3da2911e9ea6896884",
+          "sha1": "17632afac054b766f3c6d0fbd473dff12961651a",
+          "md5": "f31ddfd0397add294fd001706a17ff5e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-controls",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-controls",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-controls",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-controls",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-controls",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-controls",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-fxml",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-fxml",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-fxml",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-fxml",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-fxml",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-fxml",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-swing",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-swing",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-swing",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-swing",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-swing",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-swing",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-web",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-web",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-web",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-web",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-web",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-web",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-media",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-media",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "win"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-media",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-media",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-media",
+          "version": {
+            "requires": "17.0.9"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-media",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "linux"
+            }
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher-wrapper",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-jfx-2.2.0-dev.jar",
+          "url": "headlessmc-launcher-jfx-2.2.0-dev.jar",
+          "size": 469,
+          "sha512": "cfe0f4923cb74c5fc79d8380d56763da2e7bf0f5287c0a10fcb15be86b866f673b928d8e97181fa10270de9e3b9bee18fc49bd66e3aca745c585c7c71d43577e",
+          "sha256": "e4c90715f318a48be7a74e0f19ef037e130530a1a1c66e3da2911e9ea6896884",
+          "sha1": "17632afac054b766f3c6d0fbd473dff12961651a",
+          "md5": "f31ddfd0397add294fd001706a17ff5e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-jfx-2.2.0-sources.jar",
+          "url": "headlessmc-launcher-jfx-2.2.0-sources.jar",
+          "size": 261,
+          "sha512": "87cf36a321c66ca67668b653a8bd599dc0b7ad80547560167169105ab36e195c38dde6f296f74658f7350c827d0925c036d9675596617e9ae1380a7524e82a38",
+          "sha256": "4caac38e5df9c012eb26c36666cd272d9ecfeccbf235d8c129e9eea5c6b65dd5",
+          "sha1": "1c9952a78f0bea898d3c0b589072a1926654d88d",
+          "md5": "bdc092da340afa1ec31f648bb5d7460c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-jfx-2.2.0-javadoc.jar",
+          "url": "headlessmc-launcher-jfx-2.2.0-javadoc.jar",
+          "size": 261,
+          "sha512": "2b73fb8f851dc054b61ce7dfedfd788c8842f5dc5939b7d53f56069d43d22b320da1d4a96e25f0ea1d2c280a4a598308d8dfed6d17c29c255659711a6a3c366e",
+          "sha256": "b07b74f542645ceae0d7c9076348fd10461641a17f88a03a176fc32eddaebdea",
+          "sha1": "34cfaf925a1c0c4e0a27a8712b162fc9c95e18f4",
+          "md5": "964978f395cf97eca17d782fb6166678"
+        }
+      ]
+    }
+  ]
+}
