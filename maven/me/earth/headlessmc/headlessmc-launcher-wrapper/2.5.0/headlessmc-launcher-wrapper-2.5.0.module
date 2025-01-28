@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-wrapper",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.5.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.5.0-dev.jar",
+          "size": 10889215,
+          "sha512": "fcfad623802006046ff9827338ce6603221e63921c12873770eac90cd45a611a14a322ee45922da1c9722b4993b45f3e01e7997dcbfb4b4b2f9e15fe127a70ae",
+          "sha256": "341dd22bcd23df180807aaa6a6e504b961bdf6fe5b2a9ca0b88f045d43cb3d8d",
+          "sha1": "b33066c606cd410a50f48030b29f9afbb38db48a",
+          "md5": "6711ee208a42e1f128050839337c69ca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-modlauncher",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.5.0-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.5.0-dev.jar",
+          "size": 10889215,
+          "sha512": "fcfad623802006046ff9827338ce6603221e63921c12873770eac90cd45a611a14a322ee45922da1c9722b4993b45f3e01e7997dcbfb4b4b2f9e15fe127a70ae",
+          "sha256": "341dd22bcd23df180807aaa6a6e504b961bdf6fe5b2a9ca0b88f045d43cb3d8d",
+          "sha1": "b33066c606cd410a50f48030b29f9afbb38db48a",
+          "md5": "6711ee208a42e1f128050839337c69ca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.5.0-sources.jar",
+          "url": "headlessmc-launcher-wrapper-2.5.0-sources.jar",
+          "size": 6194,
+          "sha512": "0085f816f49786ceb1973a12a59cd7b3f846bb5a254760171ba2275c93634c15a2bbe479d69a995606de2c118c990518244557e32197457c9724e2fdc7036268",
+          "sha256": "66373bc582d41dbffb138dec10283d3c020ceb1b31d780144cdaafa1f851531c",
+          "sha1": "9190261db5327449a164b4650d3b78ad55ea1ec4",
+          "md5": "24103fc8736480cbd1c45adc36b16032"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.5.0-javadoc.jar",
+          "url": "headlessmc-launcher-wrapper-2.5.0-javadoc.jar",
+          "size": 4173935,
+          "sha512": "8fef3accc73a788e0f690f30dfd80edf7524c9f5c87c7c147088fd3c5d1649ed9e8cd36d7e8cce2d186f47e8fe59f563093c0f50d3b9c47c4fcaa2f822ba8e0e",
+          "sha256": "e1fc22810fa9c841b59d2401b064204abce5e5d3265f980c474bb951b14ac133",
+          "sha1": "2b5838767e51de8a0144522516cd942b87ff50ba",
+          "md5": "f9f18ec4500b4bbd4f9e75ea8a995f49"
+        }
+      ]
+    }
+  ]
+}

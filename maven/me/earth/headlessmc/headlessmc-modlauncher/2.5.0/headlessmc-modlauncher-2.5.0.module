@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-modlauncher",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-modlauncher-2.5.0-dev.jar",
+          "url": "headlessmc-modlauncher-2.5.0-dev.jar",
+          "size": 9947,
+          "sha512": "6b16d6f27751dbfb95a1da586fb0f8ddbfbd698c2793fa6562324a3276311afe366553a92f9c19e5e7ec1f537daae7c9704a94f037b12c47655e226503653b52",
+          "sha256": "a7d9b7320d9181e0c1633418ce73aaf1af7b21fe293ad9248ec86b964606cc15",
+          "sha1": "bfecb777c689a918ee8cd4ad0786ee1f355f4a81",
+          "md5": "d83ec48a7e33f5cfbbd7b1fa4777c41a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-modlauncher-2.5.0-dev.jar",
+          "url": "headlessmc-modlauncher-2.5.0-dev.jar",
+          "size": 9947,
+          "sha512": "6b16d6f27751dbfb95a1da586fb0f8ddbfbd698c2793fa6562324a3276311afe366553a92f9c19e5e7ec1f537daae7c9704a94f037b12c47655e226503653b52",
+          "sha256": "a7d9b7320d9181e0c1633418ce73aaf1af7b21fe293ad9248ec86b964606cc15",
+          "sha1": "bfecb777c689a918ee8cd4ad0786ee1f355f4a81",
+          "md5": "d83ec48a7e33f5cfbbd7b1fa4777c41a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-modlauncher-2.5.0-sources.jar",
+          "url": "headlessmc-modlauncher-2.5.0-sources.jar",
+          "size": 6356,
+          "sha512": "6f0d47f236e7df54a32f6b9342dfc1a08c5c6ace712d889280f1db1c1065594ddace55c1363d73e802833fe07b8420eb207b3d2ff288fdc6cde5296b74386fdc",
+          "sha256": "88129f45f0fd91be1ac4901589e653cce71e29a187f6ab17d3add07ceafdda30",
+          "sha1": "54a45e9d258f91ba5824b868b07bc42a4e63851d",
+          "md5": "8b81444420b7738b64fefdc49c3be9c5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-modlauncher-2.5.0-javadoc.jar",
+          "url": "headlessmc-modlauncher-2.5.0-javadoc.jar",
+          "size": 4146051,
+          "sha512": "d3518e9b6f03d1215b31c0bab18c8fcfa3339809e45dc3a760e159ed8a4b9a10929f958936b46746b7a3651162756a9cfea2e506c1f9599f60b48d1caadbeb11",
+          "sha256": "e60c7a0c11b88ac20f3cb149eaa1aa6a71ee1bffb459c853b7779bb91643b7be",
+          "sha1": "4b214aba6a2c7db376ffe5441f708a906da5d1b7",
+          "md5": "7b056a74457f95e03be5bc6f282541af"
+        }
+      ]
+    }
+  ]
+}
