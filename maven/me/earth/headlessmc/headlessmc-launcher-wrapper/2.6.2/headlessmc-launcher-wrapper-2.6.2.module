@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-launcher-wrapper",
+    "version": "2.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.6.2-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.6.2-dev.jar",
+          "size": 11210474,
+          "sha512": "98f3fd825176fd7a91281876936d3124633d6cdc47f86acbd51f11b80507b787e6648629c32d9065504e2d7f10e190f605f6b1d4ff66fe22b6f81f44d472cc40",
+          "sha256": "ef4b7353bc655740ae536d301be725fe4d1b35dde74b951e613ee5fc89a3704e",
+          "sha1": "35ce0ed9d414f53bf665387fcd63605b27b394f9",
+          "md5": "c35f8d0f2a30dab0694f3117c9452227"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-modlauncher",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "dev.xdark",
+          "module": "deencapsulation",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.6.2-dev.jar",
+          "url": "headlessmc-launcher-wrapper-2.6.2-dev.jar",
+          "size": 11210474,
+          "sha512": "98f3fd825176fd7a91281876936d3124633d6cdc47f86acbd51f11b80507b787e6648629c32d9065504e2d7f10e190f605f6b1d4ff66fe22b6f81f44d472cc40",
+          "sha256": "ef4b7353bc655740ae536d301be725fe4d1b35dde74b951e613ee5fc89a3704e",
+          "sha1": "35ce0ed9d414f53bf665387fcd63605b27b394f9",
+          "md5": "c35f8d0f2a30dab0694f3117c9452227"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.6.2-sources.jar",
+          "url": "headlessmc-launcher-wrapper-2.6.2-sources.jar",
+          "size": 6244,
+          "sha512": "6407b9b1b5016c43de302b000faf4daf9fda234d8d5fa49eb93d583cb8d83a246454075169b7189ec335ffecad4246b81bd7be2065b96f2f3317126eec58a587",
+          "sha256": "3b7e79d3c307adc5fc1b747ab63f02fb02fb8a8a8d007d29d4a1dd081d980155",
+          "sha1": "296199b75b0c9a4b286d6dcbcf1df0ecb915fbe0",
+          "md5": "303606c60cc3744d8217f5fc738072d9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-launcher-wrapper-2.6.2-javadoc.jar",
+          "url": "headlessmc-launcher-wrapper-2.6.2-javadoc.jar",
+          "size": 120374,
+          "sha512": "a91750f6f472a4a3be28dfd3293809677a32301f3309b1cadeb46c78c6b7c4118b891378ef8060a7c9908937a949efced15d6badf62bcbd953365dfde7f954e0",
+          "sha256": "9a9caadba47d688c27683dd300185054ab03c308e5c72def152e8ade466ba2c6",
+          "sha1": "b20ffd15cd6bf5c7fbe768bbdcf7b360ece4b7c1",
+          "md5": "f291604e20cbad73e4fcfd858e1f4648"
+        }
+      ]
+    }
+  ]
+}

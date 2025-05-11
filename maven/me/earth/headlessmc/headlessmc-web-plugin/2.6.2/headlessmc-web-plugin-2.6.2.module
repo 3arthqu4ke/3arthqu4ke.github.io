@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.earth.headlessmc",
+    "module": "headlessmc-web-plugin",
+    "version": "2.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.6.2-dev.jar",
+          "url": "headlessmc-web-plugin-2.6.2-dev.jar",
+          "size": 29292,
+          "sha512": "d13ac14505dfea6e68972a8c777c85af18ada1d1b5f49d8eea4cf1ec5c93f6ea30b45be0a4acc23c99a79ea3b5fbbdf5fdfa18712478a91fe4ffea0b60ef04dc",
+          "sha256": "d0030884da74d8119b8dd6af08ce9533614e2ba2c27c4c05ee31ec2895b62af8",
+          "sha1": "25bfe3a901f9f16b995be19d8725b14d687922b4",
+          "md5": "252f7667da1f613c612fd832d6978973"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-launcher",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.78.1"
+          }
+        },
+        {
+          "group": "me.earth.headlessmc",
+          "module": "headlessmc-runtime",
+          "version": {
+            "requires": "2.6.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.6.2-dev.jar",
+          "url": "headlessmc-web-plugin-2.6.2-dev.jar",
+          "size": 29292,
+          "sha512": "d13ac14505dfea6e68972a8c777c85af18ada1d1b5f49d8eea4cf1ec5c93f6ea30b45be0a4acc23c99a79ea3b5fbbdf5fdfa18712478a91fe4ffea0b60ef04dc",
+          "sha256": "d0030884da74d8119b8dd6af08ce9533614e2ba2c27c4c05ee31ec2895b62af8",
+          "sha1": "25bfe3a901f9f16b995be19d8725b14d687922b4",
+          "md5": "252f7667da1f613c612fd832d6978973"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.6.2-sources.jar",
+          "url": "headlessmc-web-plugin-2.6.2-sources.jar",
+          "size": 12137,
+          "sha512": "3fd7f5846ab2221060fb5711a18a2e60ae63530bc8b4188e2943662df3d2cb3d1385ebf466bf5b12e797d1233f39e3593d765e1b36e2653862bcc5598ef29248",
+          "sha256": "b3816bb5f0926ce2fd59ddd2cc3da941375c32c8168d15cc9926573951d0fcbd",
+          "sha1": "89ff962bff2cc98a497b8f5d2ca1dd77d2f942b5",
+          "md5": "406b11a65c17cd13760f75a475b02987"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "headlessmc-web-plugin-2.6.2-javadoc.jar",
+          "url": "headlessmc-web-plugin-2.6.2-javadoc.jar",
+          "size": 132778,
+          "sha512": "c153b5b1ce77f881debf70742777b67c1f078bafffea16413e863ccd14a977150da9ebe513bff1bde9461d880577b5638d59368933c0acc78cde4cbd41fc7d44",
+          "sha256": "bd098b7e74150186e76c999b5f95c91d2e055a414f7c0f89ab400143b19feb2a",
+          "sha1": "aebb0dbaeb9f85f499865c84fd1bba0a237163b4",
+          "md5": "1b7b3e5381579905d469b28fac9ae03a"
+        }
+      ]
+    }
+  ]
+}
